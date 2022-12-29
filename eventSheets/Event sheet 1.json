@@ -1,0 +1,79 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 536791791660312,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite",
+					"sid": 411538486879870,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 996191620013131
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 243860665994548,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite",
+					"sid": 581003314654601,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 575928840038960
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 631039349946844,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-vector-y",
+					"objectClass": "Sprite",
+					"sid": 960897583239469,
+					"behaviorType": "Platform",
+					"parameters": {
+						"vector-y": "-750"
+					}
+				}
+			],
+			"sid": 208137040247149
+		}
+	],
+	"sid": 285314590265717
+}

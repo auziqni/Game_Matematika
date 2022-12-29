@@ -1,0 +1,26 @@
+{
+	"name": "4Tiles",
+	"plugin-id": "TiledBg",
+	"sid": 914483318555091,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 608986086365288
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 880,
+		"height": 110,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"imageSpriteId": 402641,
+		"useCollisionPoly": true
+	}
+}
