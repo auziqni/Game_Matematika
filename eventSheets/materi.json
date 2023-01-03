@@ -189,11 +189,11 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 179279821940557,
+					"sid": 727612713777851,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "materi_persegi"
+						"object-clicked": "materi_tarapesium"
 					}
 				}
 			],
@@ -201,9 +201,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 935565205566480,
+					"sid": 775889277869261,
 					"parameters": {
-						"layout": "M_persegi"
+						"layout": "M_trapesium"
 					}
 				}
 			],
