@@ -1,0 +1,32 @@
+{
+	"name": "atcp_petunjuk_tentang",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 440439203024809,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "backtomainmenu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 676380148799998,
+					"parameters": {
+						"layout": "MainMenu"
+					}
+				}
+			],
+			"sid": 747049367063374
+		}
+	],
+	"sid": 441562939978649
+}

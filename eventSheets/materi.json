@@ -1,0 +1,32 @@
+{
+	"name": "materi",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 109951239797959,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "backtomainmenu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 445171640653369,
+					"parameters": {
+						"layout": "MainMenu"
+					}
+				}
+			],
+			"sid": 980434945807244
+		}
+	],
+	"sid": 836555949136225
+}

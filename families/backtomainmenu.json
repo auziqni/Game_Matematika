@@ -1,0 +1,19 @@
+{
+	"name": "backtomainmenu",
+	"plugin-id": "Text",
+	"sid": 483226659593892,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"atcp_mainmenu",
+		"materi_mainmenu",
+		"petunjuk_mainmenu",
+		"tentang_mainmenu",
+		"pilihlv_mainmenu",
+		"lv2_mainmenu",
+		"lv3_mainmenu",
+		"lv4_mainmenu",
+		"lv5_mainmenu"
+	]
+}

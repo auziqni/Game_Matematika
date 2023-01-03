@@ -1,15 +1,15 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 31702,
-	"name": "New project",
+	"name": "Poly Game",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "TiledBg",
-			"name": "Tiled Background",
+			"id": "Text",
+			"name": "Text",
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
@@ -31,9 +31,41 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Touch",
+			"name": "Touch",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Browser",
+			"name": "Browser",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
-			"id": "solid",
-			"name": "Solid",
+			"id": "Tween",
+			"name": "Tween",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Anchor",
+			"name": "Anchor",
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
@@ -53,50 +85,254 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Persist",
+			"name": "Persist",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "Bound to layout",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "7kge520p6m0",
 	"objectTypes": {
 		"items": [
-			"TiledBackground",
-			"8Tiles",
-			"Sprite",
-			"Sprite2",
-			"4Tiles",
-			"6Tiles",
-			"Sprite3",
-			"Sprite4",
-			"3Tiles",
-			"1Tiles",
-			"Sprite5",
-			"TiledBackground2",
-			"Sprite6",
+			"backround",
+			"tile1",
+			"tile3",
+			"tile4",
+			"tile6",
+			"tile8",
 			"Keyboard",
-			"Sprite7"
+			"Mouse",
+			"Touch",
+			"Browser"
 		],
-		"subfolders": []
+		"subfolders": [
+			{
+				"items": [
+					"menu1",
+					"menu2",
+					"menu3",
+					"menu4",
+					"menu5",
+					"menuAwal",
+					"confirmout",
+					"exit",
+					"exitno",
+					"exitya"
+				],
+				"subfolders": [],
+				"name": "MainMenu"
+			},
+			{
+				"items": [
+					"sub_game_laveling",
+					"gamelv1",
+					"gamelv2",
+					"gamelv3",
+					"gamelv4",
+					"gamelv5",
+					"pilihlv_mainmenu"
+				],
+				"subfolders": [
+					{
+						"items": [
+							"lv",
+							"NamaLevel1",
+							"player_blue",
+							"q1",
+							"q1a",
+							"q1b",
+							"q1c",
+							"q2d",
+							"obs_mazestack1"
+						],
+						"subfolders": [],
+						"name": "lv1"
+					},
+					{
+						"items": [
+							"OnConstruction",
+							"lv2_mainmenu"
+						],
+						"subfolders": [],
+						"name": "lv2"
+					},
+					{
+						"items": [
+							"OnConstruction2",
+							"lv3_mainmenu"
+						],
+						"subfolders": [],
+						"name": "lv3"
+					},
+					{
+						"items": [
+							"OnConstruction3",
+							"lv4_mainmenu"
+						],
+						"subfolders": [],
+						"name": "lv4"
+					},
+					{
+						"items": [
+							"OnConstruction4",
+							"lv5_mainmenu"
+						],
+						"subfolders": [],
+						"name": "lv5"
+					}
+				],
+				"name": "submenu_game"
+			},
+			{
+				"items": [
+					"subMenuMateri",
+					"materi_mainmenu"
+				],
+				"subfolders": [
+					{
+						"items": [],
+						"subfolders": [],
+						"name": "persegi"
+					},
+					{
+						"items": [],
+						"subfolders": [],
+						"name": "persegi panjang"
+					},
+					{
+						"items": [],
+						"subfolders": [],
+						"name": "belah ketupat"
+					},
+					{
+						"items": [],
+						"subfolders": [],
+						"name": "jajar genjang"
+					},
+					{
+						"items": [],
+						"subfolders": [],
+						"name": "layang layang"
+					},
+					{
+						"items": [],
+						"subfolders": [],
+						"name": "trapesium"
+					}
+				],
+				"name": "submenu_materi"
+			},
+			{
+				"items": [
+					"subMenuPetunjuk",
+					"petunjuk_mainmenu"
+				],
+				"subfolders": [],
+				"name": "submenu_petunjuk"
+			},
+			{
+				"items": [
+					"subMenuAtcp",
+					"atcp_mainmenu"
+				],
+				"subfolders": [],
+				"name": "submenu_atcp"
+			},
+			{
+				"items": [
+					"subMenuTentang",
+					"tentang_mainmenu"
+				],
+				"subfolders": [],
+				"name": "submenu_tentang"
+			}
+		]
 	},
 	"autosaveData": null,
 	"containers": [],
 	"families": {
-		"items": [],
+		"items": [
+			"wronglv1q1",
+			"backtomainmenu"
+		],
 		"subfolders": []
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"MainMenu",
+			"materi",
+			"petunjuk",
+			"Tentang",
+			"atcp"
 		],
-		"subfolders": []
+		"subfolders": [
+			{
+				"items": [
+					"LV1",
+					"LV2",
+					"LV3",
+					"LV4",
+					"LV5",
+					"PilihLv"
+				],
+				"subfolders": [],
+				"name": "game"
+			}
+		]
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"MainMenu",
+			"materi",
+			"atcp_petunjuk_tentang"
 		],
-		"subfolders": []
+		"subfolders": [
+			{
+				"items": [
+					"es_lv1",
+					"es_lv2",
+					"es_lv3",
+					"es_lv4",
+					"es_lv5",
+					"PilihLv"
+				],
+				"subfolders": [],
+				"name": "game"
+			}
+		]
 	},
 	"rootFileFolders": {
 		"script": {
-			"items": [],
+			"items": [
+				{
+					"name": "main.js",
+					"type": "application/javascript",
+					"sid": 730844744986518,
+					"script-info": {
+						"purpose": "imports-for-events"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"sound": {
@@ -243,7 +479,7 @@
 		"autoReloadScriptsOnPreview": false,
 		"exportFileStructure": "folders"
 	},
-	"viewportWidth": 1920,
-	"viewportHeight": 1080,
-	"firstLayout": null
+	"viewportWidth": 1600,
+	"viewportHeight": 900,
+	"firstLayout": "MainMenu"
 }

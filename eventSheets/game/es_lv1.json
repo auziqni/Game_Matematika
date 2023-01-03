@@ -1,0 +1,209 @@
+{
+	"name": "es_lv1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 421518512528745
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 547331033869416,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "player_blue",
+					"sid": 571722487339737,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 363183320320643
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 215433796566941,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "player_blue",
+					"sid": 423821368943288,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 675464416303794
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 339377200985400,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-jump-strength",
+					"objectClass": "player_blue",
+					"sid": 139756917176014,
+					"behaviorType": "Platform",
+					"parameters": {
+						"jump-strength": "800"
+					}
+				},
+				{
+					"id": "set-double-jump",
+					"objectClass": "player_blue",
+					"sid": 990145325290269,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 563446103577675
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-y",
+					"objectClass": "player_blue",
+					"sid": 433837476679162,
+					"parameters": {
+						"comparison": 4,
+						"y-co-ordinate": "900"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "player_blue",
+					"sid": 260958975365522,
+					"parameters": {
+						"x": "150",
+						"y": "450"
+					}
+				}
+			],
+			"sid": 517608989752688
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "obs_mazestack1",
+					"sid": 597642619036696,
+					"parameters": {
+						"object": "player_blue"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "obs_mazestack1",
+					"sid": 454357841339794
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "q1",
+					"sid": 680944881021692,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "LayoutHeight/2",
+						"time": "1",
+						"ease": "easeinback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "player_blue",
+					"sid": 287558621320900,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "disabled"
+					}
+				}
+			],
+			"sid": 121502080786748
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 439998549741020,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "q1c"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-one-property",
+					"objectClass": "q1",
+					"sid": 801135451766847,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "-300",
+						"time": "1",
+						"ease": "easeoutback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "player_blue",
+					"sid": 333814529766015,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 153449745173985
+		}
+	],
+	"sid": 285314590265717
+}

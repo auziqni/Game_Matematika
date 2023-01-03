@@ -1,0 +1,13 @@
+{
+	"name": "wronglv1q1",
+	"plugin-id": "Text",
+	"sid": 893067885202785,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"q2d",
+		"q1b",
+		"q1a"
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"name": "es_lv4",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 909254146254756,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "backtomainmenu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 581434708215173,
+					"parameters": {
+						"layout": "PilihLv"
+					}
+				}
+			],
+			"sid": 807061250131179
+		}
+	],
+	"sid": 906470694950335
+}

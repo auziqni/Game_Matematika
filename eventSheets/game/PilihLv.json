@@ -1,0 +1,32 @@
+{
+	"name": "PilihLv",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 842201564661051,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "backtomainmenu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 548018666817911,
+					"parameters": {
+						"layout": "MainMenu"
+					}
+				}
+			],
+			"sid": 897533014935381
+		}
+	],
+	"sid": 169927347176645
+}
