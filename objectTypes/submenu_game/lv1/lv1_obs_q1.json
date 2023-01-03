@@ -1,35 +1,29 @@
 {
-	"name": "NamaLevel1",
+	"name": "lv1_obs_q1",
 	"plugin-id": "Sprite",
-	"sid": 783357758268093,
+	"sid": 344211236081029,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Anchor",
-			"name": "Anchor",
-			"sid": 818229977241223
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 147,
-						"height": 30,
+						"width": 128,
+						"height": 371,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7516531,
+						"imageSpriteId": 6531855,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 860093838631709,
+				"sid": 729874651317941,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

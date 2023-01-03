@@ -11,6 +11,143 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 230464496829389,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "lv1_pauseimg"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_Pausedisp",
+					"sid": 873910736916041,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetX",
+						"end-value": "lv1_pauseimg.X-734",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 366315060942972
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 594736629782049,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "lv1_pause_resume"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_Pausedisp",
+					"sid": 458568068214214,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetX",
+						"end-value": "-734",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 155207313242606
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 526435679313061,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "lv1_pause_reset"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 478434703656417,
+					"parameters": {
+						"layout": "LV1"
+					}
+				}
+			],
+			"sid": 762123250434525
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 745652934081568,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "lv1_pause_menu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 830267943059306,
+					"parameters": {
+						"layout": "PilihLv"
+					}
+				}
+			],
+			"sid": 362524324214061
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 281922826329856,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "lv1_pause_mute"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 773288280024582
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
 					"sid": 547331033869416,
@@ -22,7 +159,7 @@
 			"actions": [
 				{
 					"id": "set-mirrored",
-					"objectClass": "player_blue",
+					"objectClass": "lv1_player_blue",
 					"sid": 571722487339737,
 					"parameters": {
 						"state": "not-mirrored"
@@ -46,7 +183,7 @@
 			"actions": [
 				{
 					"id": "set-mirrored",
-					"objectClass": "player_blue",
+					"objectClass": "lv1_player_blue",
 					"sid": 423821368943288,
 					"parameters": {
 						"state": "mirrored"
@@ -70,7 +207,7 @@
 			"actions": [
 				{
 					"id": "set-jump-strength",
-					"objectClass": "player_blue",
+					"objectClass": "lv1_player_blue",
 					"sid": 139756917176014,
 					"behaviorType": "Platform",
 					"parameters": {
@@ -79,7 +216,7 @@
 				},
 				{
 					"id": "set-double-jump",
-					"objectClass": "player_blue",
+					"objectClass": "lv1_player_blue",
 					"sid": 990145325290269,
 					"behaviorType": "Platform",
 					"parameters": {
@@ -94,7 +231,7 @@
 			"conditions": [
 				{
 					"id": "compare-y",
-					"objectClass": "player_blue",
+					"objectClass": "lv1_player_blue",
 					"sid": 433837476679162,
 					"parameters": {
 						"comparison": 4,
@@ -105,7 +242,7 @@
 			"actions": [
 				{
 					"id": "set-position",
-					"objectClass": "player_blue",
+					"objectClass": "lv1_player_blue",
 					"sid": 260958975365522,
 					"parameters": {
 						"x": "150",
@@ -120,22 +257,22 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "obs_mazestack1",
+					"objectClass": "lv1_obs_q1",
 					"sid": 597642619036696,
 					"parameters": {
-						"object": "player_blue"
+						"object": "lv1_player_blue"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "destroy",
-					"objectClass": "obs_mazestack1",
+					"objectClass": "lv1_obs_q1",
 					"sid": 454357841339794
 				},
 				{
 					"id": "tween-one-property",
-					"objectClass": "q1",
+					"objectClass": "lv1_q1",
 					"sid": 680944881021692,
 					"behaviorType": "Tween",
 					"parameters": {
@@ -151,7 +288,7 @@
 				},
 				{
 					"id": "set-enabled",
-					"objectClass": "player_blue",
+					"objectClass": "lv1_player_blue",
 					"sid": 287558621320900,
 					"behaviorType": "Platform",
 					"parameters": {
@@ -171,14 +308,14 @@
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "q1c"
+						"object-clicked": "lv1_q1c"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "tween-one-property",
-					"objectClass": "q1",
+					"objectClass": "lv1_q1",
 					"sid": 801135451766847,
 					"behaviorType": "Tween",
 					"parameters": {
@@ -194,7 +331,7 @@
 				},
 				{
 					"id": "set-enabled",
-					"objectClass": "player_blue",
+					"objectClass": "lv1_player_blue",
 					"sid": 333814529766015,
 					"behaviorType": "Platform",
 					"parameters": {
@@ -203,6 +340,89 @@
 				}
 			],
 			"sid": 153449745173985
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "lv1_finish",
+					"sid": 185078577445519,
+					"parameters": {
+						"object": "lv1_player_blue"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_finishPopup",
+					"sid": 510207412790425,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "LayoutHeight/2",
+						"time": "1",
+						"ease": "easeinback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "lv1_player_blue",
+					"sid": 253317159247579,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "disabled"
+					}
+				}
+			],
+			"sid": 453756077870517
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 307807574903335,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "lv1_finishClickAny"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_finishPopup",
+					"sid": 345480677718559,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "-300",
+						"time": "1",
+						"ease": "easeoutback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 904060943086049,
+					"parameters": {
+						"layout": "PilihLv"
+					}
+				}
+			],
+			"sid": 885960075578742
 		}
 	],
 	"sid": 285314590265717

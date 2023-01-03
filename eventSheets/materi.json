@@ -26,6 +26,188 @@
 				}
 			],
 			"sid": 980434945807244
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 287800531339722,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "backtoallmateri"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 952848925697923,
+					"parameters": {
+						"layout": "allmateri"
+					}
+				}
+			],
+			"sid": 704003798041668
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 242191142823492,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "materi_persegi"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 145887095730675,
+					"parameters": {
+						"layout": "M_persegi"
+					}
+				}
+			],
+			"sid": 460108549998461
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 275142703211450,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "materi_persegipanjang"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 779654468363526,
+					"parameters": {
+						"layout": "M_persegipanjang"
+					}
+				}
+			],
+			"sid": 533637727642930
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 172862444966538,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "materi_belahketupat"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 146177865948529,
+					"parameters": {
+						"layout": "M_belahketupat"
+					}
+				}
+			],
+			"sid": 907844164285194
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 895172177605631,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "materi_jajargenjang"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 347537573704694,
+					"parameters": {
+						"layout": "M_jajargenjang"
+					}
+				}
+			],
+			"sid": 183622103433334
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 900082130895380,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "materi_layanglayang"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 768943536335338,
+					"parameters": {
+						"layout": "M_layanglayang"
+					}
+				}
+			],
+			"sid": 764885852024203
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 179279821940557,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "materi_persegi"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 935565205566480,
+					"parameters": {
+						"layout": "M_persegi"
+					}
+				}
+			],
+			"sid": 619857985889402
 		}
 	],
 	"sid": 836555949136225

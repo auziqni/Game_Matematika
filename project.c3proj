@@ -155,15 +155,26 @@
 				"subfolders": [
 					{
 						"items": [
-							"lv",
-							"NamaLevel1",
-							"player_blue",
-							"q1",
-							"q1a",
-							"q1b",
-							"q1c",
-							"q2d",
-							"obs_mazestack1"
+							"lv1_refrence",
+							"Lv1_Nama",
+							"lv1_player_blue",
+							"lv1_q1",
+							"lv1_q1a",
+							"lv1_q1b",
+							"lv1_q1c",
+							"lv1_q1d",
+							"lv1_obs_q1",
+							"lv1_back",
+							"lv1_finish",
+							"lv1_finishPopup",
+							"lv1_finishClickAny",
+							"lv1_pauseimg",
+							"lv1_obs_q2",
+							"lv1_pause_menu",
+							"lv1_pause_mute",
+							"lv1_pause_reset",
+							"lv1_pause_resume",
+							"lv1_Pausedisp"
 						],
 						"subfolders": [],
 						"name": "lv1"
@@ -206,36 +217,51 @@
 			{
 				"items": [
 					"subMenuMateri",
-					"materi_mainmenu"
+					"materi_mainmenu",
+					"backtoallmateri",
+					"OnConstruction5"
 				],
 				"subfolders": [
 					{
-						"items": [],
+						"items": [
+							"materi_persegi",
+							"materiPersegi"
+						],
 						"subfolders": [],
 						"name": "persegi"
 					},
 					{
-						"items": [],
+						"items": [
+							"materi_persegipanjang"
+						],
 						"subfolders": [],
 						"name": "persegi panjang"
 					},
 					{
-						"items": [],
+						"items": [
+							"materi_belahketupat"
+						],
 						"subfolders": [],
 						"name": "belah ketupat"
 					},
 					{
-						"items": [],
+						"items": [
+							"materi_jajargenjang"
+						],
 						"subfolders": [],
 						"name": "jajar genjang"
 					},
 					{
-						"items": [],
+						"items": [
+							"materi_layanglayang"
+						],
 						"subfolders": [],
 						"name": "layang layang"
 					},
 					{
-						"items": [],
+						"items": [
+							"materi_tarapesium"
+						],
 						"subfolders": [],
 						"name": "trapesium"
 					}
@@ -280,7 +306,6 @@
 	"layouts": {
 		"items": [
 			"MainMenu",
-			"materi",
 			"petunjuk",
 			"Tentang",
 			"atcp"
@@ -297,6 +322,19 @@
 				],
 				"subfolders": [],
 				"name": "game"
+			},
+			{
+				"items": [
+					"allmateri",
+					"M_persegi",
+					"M_persegipanjang",
+					"M_belahketupat",
+					"M_jajargenjang",
+					"M_layanglayang",
+					"M_trapesium"
+				],
+				"subfolders": [],
+				"name": "materi"
 			}
 		]
 	},
@@ -429,12 +467,12 @@
 		]
 	},
 	"properties": {
-		"description": "",
+		"description": "poly game matematika",
 		"version": "1.0.0.0",
-		"author": "",
-		"authorEmail": "",
-		"authorWebsite": "",
-		"appId": "",
+		"author": "auziqni",
+		"authorEmail": "auziqni@gmail.com",
+		"authorWebsite": "https://www.auziqni.com",
+		"appId": "com.auziqni",
 		"pixelRounding": false,
 		"zAxisScale": "normalized",
 		"fov": 0.7853981633974483,

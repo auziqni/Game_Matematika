@@ -1,5 +1,5 @@
 {
-	"name": "materi",
+	"name": "M_persegipanjang",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "subMenuMateri",
+					"type": "OnConstruction5",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",
@@ -15,7 +15,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 50,
+					"uid": 77,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -36,7 +36,7 @@
 					}
 				},
 				{
-					"type": "materi_mainmenu",
+					"type": "backtoallmateri",
 					"properties": {
 						"text": "",
 						"enable-bbcode": true,
@@ -57,14 +57,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 53,
+					"uid": 78,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 43.18595203329275,
-						"y": 53.23307085100605,
-						"width": 85.27885048067515,
-						"height": 87.01709826409555,
+						"x": 40,
+						"y": 48,
+						"width": 95,
+						"height": 100,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -78,7 +78,7 @@
 					}
 				}
 			],
-			"sid": 102774331553368,
+			"sid": 162078127247916,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -107,7 +107,7 @@
 			"global": false
 		}
 	],
-	"sid": 902366059120080,
+	"sid": 837917941617570,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1600,
