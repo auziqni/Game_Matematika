@@ -1,14 +1,14 @@
 {
-	"name": "lv1_finishPopup",
+	"name": "onGameOver",
 	"plugin-id": "Sprite",
-	"sid": 583586408018983,
+	"sid": 984711021026851,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Tween",
 			"name": "Tween",
-			"sid": 306073549830730
+			"sid": 744016514575905
 		}
 	],
 	"effectTypes": [],
@@ -17,19 +17,19 @@
 			{
 				"frames": [
 					{
-						"width": 924,
-						"height": 306,
+						"width": 907,
+						"height": 683,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7482132,
+						"imageSpriteId": 8510773,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 125762291094270,
+				"sid": 189365748472430,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

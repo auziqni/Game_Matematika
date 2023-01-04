@@ -3,7 +3,15 @@
 	"plugin-id": "Sprite",
 	"sid": 344211236081029,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "nyawa",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 575839574230942
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {

@@ -1,0 +1,70 @@
+{
+	"name": "Mainplayer",
+	"plugin-id": "Sprite",
+	"sid": 787173525038837,
+	"isGlobal": true,
+	"instanceVariables": [
+		{
+			"name": "Heart",
+			"type": "number",
+			"desc": "nyawa",
+			"show": true,
+			"sid": 499172111182795
+		},
+		{
+			"name": "level",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 447129155127947
+		},
+		{
+			"name": "poin",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 290046920564870
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 607029140054841
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 446770610738609
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 100,
+						"height": 99,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8199585,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 153447954671854,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

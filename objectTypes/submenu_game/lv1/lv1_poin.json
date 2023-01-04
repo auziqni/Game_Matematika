@@ -1,0 +1,15 @@
+{
+	"name": "lv1_poin",
+	"plugin-id": "Text",
+	"sid": 198514734009551,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Anchor",
+			"sid": 604048235482516
+		}
+	],
+	"effectTypes": []
+}

@@ -1,14 +1,14 @@
 {
-	"name": "lv1_Pausedisp",
+	"name": "lv1_q2",
 	"plugin-id": "Sprite",
-	"sid": 656681827565398,
+	"sid": 554773033408696,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Tween",
 			"name": "Tween",
-			"sid": 728805084261060
+			"sid": 784511810433177
 		}
 	],
 	"effectTypes": [],
@@ -17,19 +17,19 @@
 			{
 				"frames": [
 					{
-						"width": 965,
-						"height": 579,
+						"width": 924,
+						"height": 478,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8426439,
+						"imageSpriteId": 239775,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 790468143991714,
+				"sid": 542848145237477,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

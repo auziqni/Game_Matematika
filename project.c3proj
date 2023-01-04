@@ -109,6 +109,14 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Flash",
+			"name": "Flash",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "7kge520p6m0",
@@ -123,7 +131,9 @@
 			"Keyboard",
 			"Mouse",
 			"Touch",
-			"Browser"
+			"Browser",
+			"popupJawabanBenar",
+			"popupJawabanSalah"
 		],
 		"subfolders": [
 			{
@@ -150,22 +160,20 @@
 					"gamelv3",
 					"gamelv4",
 					"gamelv5",
-					"pilihlv_mainmenu"
+					"pilihlv_mainmenu",
+					"Pausedisp",
+					"Mainplayer",
+					"mainPlayer_gold",
+					"MainPlayer_Heart",
+					"onGameOver",
+					"finishPopup"
 				],
 				"subfolders": [
 					{
 						"items": [
-							"lv1_refrence",
 							"Lv1_Nama",
-							"lv1_player_blue",
-							"lv1_q1",
-							"lv1_q1a",
-							"lv1_q1b",
-							"lv1_q1c",
-							"lv1_q1d",
 							"lv1_obs_q1",
 							"lv1_finish",
-							"lv1_finishPopup",
 							"lv1_finishClickAny",
 							"lv1_pauseimg",
 							"lv1_obs_q2",
@@ -173,7 +181,44 @@
 							"lv1_pause_mute",
 							"lv1_pause_reset",
 							"lv1_pause_resume",
-							"lv1_Pausedisp"
+							"lv1_GameOverMenu",
+							"lv1_GameOverReset",
+							"lv1_heart",
+							"lv1_poin",
+							"lv1_obs_q3",
+							"lv1_obs_q4",
+							"lv1_obs_q5",
+							"lv1_obs_q6",
+							"lv1_q1",
+							"lv1_q1a",
+							"lv1_q1b",
+							"lv1_q1c",
+							"lv1_q1d",
+							"lv1_q2",
+							"lv1_q2a",
+							"lv1_q2b",
+							"lv1_q2c",
+							"lv1_q2d",
+							"lv1_q3",
+							"lv1_q3a",
+							"lv1_q3b",
+							"lv1_q3c",
+							"lv1_q3d",
+							"lv1_q4",
+							"lv1_q41",
+							"lv1_q42",
+							"lv1_q43",
+							"lv1_q44",
+							"lv1_q5",
+							"lv1_q51",
+							"lv1_q52",
+							"lv1_q53",
+							"lv1_q54",
+							"lv1_q6",
+							"lv1_q61",
+							"lv1_q62",
+							"lv1_q63",
+							"lv1_q64"
 						],
 						"subfolders": [],
 						"name": "lv1"
@@ -297,8 +342,9 @@
 	"containers": [],
 	"families": {
 		"items": [
-			"wronglv1q1",
-			"backtomainmenu"
+			"lv1wrongans",
+			"backtomainmenu",
+			"lv1rightans"
 		],
 		"subfolders": []
 	},

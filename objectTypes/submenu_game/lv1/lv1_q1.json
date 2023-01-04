@@ -1,14 +1,14 @@
 {
 	"name": "lv1_q1",
 	"plugin-id": "Sprite",
-	"sid": 222308774094506,
+	"sid": 470691963696316,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Tween",
 			"name": "Tween",
-			"sid": 578895326486283
+			"sid": 700149385392123
 		}
 	],
 	"effectTypes": [],
@@ -24,33 +24,13 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7934204,
-						"collisionPoly": {
-							"points": [
-								0.025974025974025976,
-								0.0502092050209205,
-								0.5,
-								0,
-								0.9729437229437229,
-								0.0502092050209205,
-								0.9945887445887446,
-								0.5,
-								0.9707792207792207,
-								0.9435146443514645,
-								0.5,
-								0.9916317991631799,
-								0.02813852813852814,
-								0.9435146443514645,
-								0.003246753246753247,
-								0.5
-							]
-						},
+						"imageSpriteId": 2466255,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 299852068447771,
-				"name": "Animation 1",
+				"sid": 451067556637710,
+				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

@@ -3,9 +3,165 @@
 	"events": [
 		{
 			"eventType": "block",
-			"conditions": [],
-			"actions": [],
-			"sid": 421518512528745
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 206555566233172
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Mainplayer",
+					"sid": 277154153548108,
+					"parameters": {
+						"instance-variable": "Heart",
+						"value": "3"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Mainplayer",
+					"sid": 317235024790397,
+					"parameters": {
+						"x": "130",
+						"y": "400"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Mainplayer",
+					"sid": 899271063878497,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "move-to-top",
+					"objectClass": "Mainplayer",
+					"sid": 830660061507188
+				}
+			],
+			"sid": 962953025319465
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-on-screen",
+					"objectClass": "Mainplayer",
+					"sid": 573976029658103
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "lv1_heart",
+					"sid": 687179588669133,
+					"parameters": {
+						"text": "Mainplayer.Heart"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "lv1_poin",
+					"sid": 416523379703041,
+					"parameters": {
+						"text": "Mainplayer.poin"
+					}
+				}
+			],
+			"sid": 573807132728793
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Mainplayer",
+					"sid": 179764080763885,
+					"parameters": {
+						"instance-variable": "Heart",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "onGameOver",
+					"sid": 137896811270993,
+					"parameters": {
+						"x": "lv1_pauseimg.X-700",
+						"y": "LayoutHeight/2"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Mainplayer",
+					"sid": 693713476993370,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 642807874058080
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 923826832773458,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "lv1_GameOverReset"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 849164053722649,
+					"parameters": {
+						"layout": "LV1"
+					}
+				}
+			],
+			"sid": 566670825001181
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 385791357867597,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "lv1_GameOverMenu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 719548341349142,
+					"parameters": {
+						"layout": "PilihLv"
+					}
+				}
+			],
+			"sid": 120729264284735
 		},
 		{
 			"eventType": "block",
@@ -24,7 +180,7 @@
 			"actions": [
 				{
 					"id": "tween-one-property",
-					"objectClass": "lv1_Pausedisp",
+					"objectClass": "Pausedisp",
 					"sid": 873910736916041,
 					"behaviorType": "Tween",
 					"parameters": {
@@ -58,7 +214,7 @@
 			"actions": [
 				{
 					"id": "tween-one-property",
-					"objectClass": "lv1_Pausedisp",
+					"objectClass": "Pausedisp",
 					"sid": 458568068214214,
 					"behaviorType": "Tween",
 					"parameters": {
@@ -70,6 +226,15 @@
 						"destroy-on-complete": "no",
 						"loop": "no",
 						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Mainplayer",
+					"sid": 161489498380102,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "enabled"
 					}
 				}
 			],
@@ -159,7 +324,7 @@
 			"actions": [
 				{
 					"id": "set-mirrored",
-					"objectClass": "lv1_player_blue",
+					"objectClass": "Mainplayer",
 					"sid": 571722487339737,
 					"parameters": {
 						"state": "not-mirrored"
@@ -183,7 +348,7 @@
 			"actions": [
 				{
 					"id": "set-mirrored",
-					"objectClass": "lv1_player_blue",
+					"objectClass": "Mainplayer",
 					"sid": 423821368943288,
 					"parameters": {
 						"state": "mirrored"
@@ -207,7 +372,7 @@
 			"actions": [
 				{
 					"id": "set-jump-strength",
-					"objectClass": "lv1_player_blue",
+					"objectClass": "Mainplayer",
 					"sid": 139756917176014,
 					"behaviorType": "Platform",
 					"parameters": {
@@ -216,7 +381,7 @@
 				},
 				{
 					"id": "set-double-jump",
-					"objectClass": "lv1_player_blue",
+					"objectClass": "Mainplayer",
 					"sid": 990145325290269,
 					"behaviorType": "Platform",
 					"parameters": {
@@ -231,7 +396,7 @@
 			"conditions": [
 				{
 					"id": "compare-y",
-					"objectClass": "lv1_player_blue",
+					"objectClass": "Mainplayer",
 					"sid": 433837476679162,
 					"parameters": {
 						"comparison": 4,
@@ -242,11 +407,20 @@
 			"actions": [
 				{
 					"id": "set-position",
-					"objectClass": "lv1_player_blue",
+					"objectClass": "Mainplayer",
 					"sid": 260958975365522,
 					"parameters": {
 						"x": "150",
 						"y": "450"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Mainplayer",
+					"sid": 712312585037654,
+					"parameters": {
+						"instance-variable": "Heart",
+						"value": "1"
 					}
 				}
 			],
@@ -257,107 +431,18 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "lv1_obs_q1",
-					"sid": 597642619036696,
-					"parameters": {
-						"object": "lv1_player_blue"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "lv1_obs_q1",
-					"sid": 454357841339794
-				},
-				{
-					"id": "tween-one-property",
-					"objectClass": "lv1_q1",
-					"sid": 680944881021692,
-					"behaviorType": "Tween",
-					"parameters": {
-						"tags": "\"\"",
-						"property": "offsetY",
-						"end-value": "LayoutHeight/2",
-						"time": "1",
-						"ease": "easeinback",
-						"destroy-on-complete": "no",
-						"loop": "no",
-						"ping-pong": "no"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "lv1_player_blue",
-					"sid": 287558621320900,
-					"behaviorType": "Platform",
-					"parameters": {
-						"state": "disabled"
-					}
-				}
-			],
-			"sid": 121502080786748
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-object-clicked",
-					"objectClass": "Mouse",
-					"sid": 439998549741020,
-					"parameters": {
-						"mouse-button": "left",
-						"click-type": "clicked",
-						"object-clicked": "lv1_q1c"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "tween-one-property",
-					"objectClass": "lv1_q1",
-					"sid": 801135451766847,
-					"behaviorType": "Tween",
-					"parameters": {
-						"tags": "\"\"",
-						"property": "offsetY",
-						"end-value": "-300",
-						"time": "1",
-						"ease": "easeoutback",
-						"destroy-on-complete": "no",
-						"loop": "no",
-						"ping-pong": "no"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "lv1_player_blue",
-					"sid": 333814529766015,
-					"behaviorType": "Platform",
-					"parameters": {
-						"state": "enabled"
-					}
-				}
-			],
-			"sid": 153449745173985
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
 					"objectClass": "lv1_finish",
-					"sid": 185078577445519,
+					"sid": 367967628466879,
 					"parameters": {
-						"object": "lv1_player_blue"
+						"object": "Mainplayer"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "tween-one-property",
-					"objectClass": "lv1_finishPopup",
-					"sid": 510207412790425,
+					"objectClass": "finishPopup",
+					"sid": 979759278077286,
 					"behaviorType": "Tween",
 					"parameters": {
 						"tags": "\"\"",
@@ -372,15 +457,15 @@
 				},
 				{
 					"id": "set-enabled",
-					"objectClass": "lv1_player_blue",
-					"sid": 253317159247579,
+					"objectClass": "Mainplayer",
+					"sid": 281998148506200,
 					"behaviorType": "Platform",
 					"parameters": {
 						"state": "disabled"
 					}
 				}
 			],
-			"sid": 453756077870517
+			"sid": 937139320633691
 		},
 		{
 			"eventType": "block",
@@ -388,7 +473,7 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 307807574903335,
+					"sid": 249695816994276,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
@@ -399,8 +484,8 @@
 			"actions": [
 				{
 					"id": "tween-one-property",
-					"objectClass": "lv1_finishPopup",
-					"sid": 345480677718559,
+					"objectClass": "finishPopup",
+					"sid": 647264736849164,
 					"behaviorType": "Tween",
 					"parameters": {
 						"tags": "\"\"",
@@ -416,13 +501,832 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 904060943086049,
+					"sid": 793643745841689,
 					"parameters": {
 						"layout": "PilihLv"
 					}
 				}
 			],
-			"sid": 885960075578742
+			"sid": 561616549538829
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 879012700129097,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "lv1rightans"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_q1",
+					"sid": 746762165762662,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "-500",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_q2",
+					"sid": 198993722972361,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "-500",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_q3",
+					"sid": 182865361805388,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "-500",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_q4",
+					"sid": 895166485386031,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "-500",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_q5",
+					"sid": 616278025788251,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "-500",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_q6",
+					"sid": 505590939901490,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "-500",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Mainplayer",
+					"sid": 361485910203465,
+					"parameters": {
+						"instance-variable": "poin",
+						"value": "-5"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "popupJawabanSalah",
+					"sid": 396659878083352,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "popupJawabanBenar",
+					"sid": 546902190138401,
+					"parameters": {
+						"x": "lv1_pauseimg.X-735",
+						"y": "LayoutHeight/2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 523562021331151,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "popupJawabanBenar",
+					"sid": 836437612595171,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Mainplayer",
+					"sid": 736576302263569,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 992400356253628
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 195881300060067,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "lv1wrongans"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_q1",
+					"sid": 304093078995527,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "-500",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_q2",
+					"sid": 485301017090445,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "-500",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_q3",
+					"sid": 643891474910200,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "-500",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_q4",
+					"sid": 734629046392094,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "-500",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_q5",
+					"sid": 212191234427141,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "-500",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_q6",
+					"sid": 383086831631745,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "-500",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Mainplayer",
+					"sid": 484629005080816,
+					"parameters": {
+						"instance-variable": "Heart",
+						"value": "1"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Mainplayer",
+					"sid": 433819887931251,
+					"parameters": {
+						"instance-variable": "poin",
+						"value": "5"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "popupJawabanSalah",
+					"sid": 219247138207803,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "popupJawabanSalah",
+					"sid": 122758571027695,
+					"parameters": {
+						"x": "lv1_pauseimg.X-735",
+						"y": "LayoutHeight/2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 703204908719012,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "popupJawabanSalah",
+					"sid": 218520218185055,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Mainplayer",
+					"sid": 943367724757968,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 204510898367884
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "Mainplayer",
+					"sid": 639953530230566,
+					"parameters": {
+						"comparison": 4,
+						"x-co-ordinate": "844"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "lv1_obs_q1",
+					"sid": 610586606160511,
+					"parameters": {
+						"object": "Mainplayer",
+						"image-point-optional": "0"
+					}
+				}
+			],
+			"sid": 557656604881609
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Mainplayer",
+					"sid": 980055608279771,
+					"parameters": {
+						"object": "lv1_obs_q1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 987165065054641,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "lv1_obs_q1",
+					"sid": 454357841339794
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Mainplayer",
+					"sid": 287558621320900,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_q1",
+					"sid": 402384644033509,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "LayoutHeight/2",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 121502080786748
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "Mainplayer",
+					"sid": 921647389022415,
+					"parameters": {
+						"comparison": 4,
+						"x-co-ordinate": "1990"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "lv1_obs_q2",
+					"sid": 722681023944697,
+					"parameters": {
+						"object": "Mainplayer",
+						"image-point-optional": "0"
+					}
+				}
+			],
+			"sid": 493054716882040
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Mainplayer",
+					"sid": 672160991831795,
+					"parameters": {
+						"object": "lv1_obs_q2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "lv1_obs_q2",
+					"sid": 441498061321630
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 623626832673279,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Mainplayer",
+					"sid": 755300101596325,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_q2",
+					"sid": 415488375914696,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "LayoutHeight/2",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 913757592618174
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "Mainplayer",
+					"sid": 141332776887563,
+					"parameters": {
+						"comparison": 4,
+						"x-co-ordinate": "2800"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "lv1_obs_q3",
+					"sid": 273002160389047,
+					"parameters": {
+						"object": "Mainplayer",
+						"image-point-optional": "0"
+					}
+				}
+			],
+			"sid": 996381455912559
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Mainplayer",
+					"sid": 546839484315005,
+					"parameters": {
+						"object": "lv1_obs_q3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "lv1_obs_q3",
+					"sid": 174156855911042
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 149406314572315,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Mainplayer",
+					"sid": 174466045522447,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_q3",
+					"sid": 422897990105097,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "LayoutHeight/2",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 402528124322798
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "Mainplayer",
+					"sid": 153677536411855,
+					"parameters": {
+						"comparison": 4,
+						"x-co-ordinate": "4535"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "lv1_obs_q4",
+					"sid": 833714688573899,
+					"parameters": {
+						"object": "Mainplayer",
+						"image-point-optional": "0"
+					}
+				}
+			],
+			"sid": 886374225821903
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Mainplayer",
+					"sid": 161876129590024,
+					"parameters": {
+						"object": "lv1_obs_q4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "lv1_obs_q4",
+					"sid": 653474150344891
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 443901564424509,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Mainplayer",
+					"sid": 231637704734210,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_q4",
+					"sid": 609274081160567,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "LayoutHeight/2",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 786824527108980
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "Mainplayer",
+					"sid": 508366025596596,
+					"parameters": {
+						"comparison": 4,
+						"x-co-ordinate": "5500"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "lv1_obs_q5",
+					"sid": 843273918445975,
+					"parameters": {
+						"object": "Mainplayer",
+						"image-point-optional": "0"
+					}
+				}
+			],
+			"sid": 634471701170119
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Mainplayer",
+					"sid": 814056103753368,
+					"parameters": {
+						"object": "lv1_obs_q5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "lv1_obs_q5",
+					"sid": 977651163135356
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 421037997319424,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Mainplayer",
+					"sid": 460964108377477,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_q5",
+					"sid": 848605795809060,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "LayoutHeight/2",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 222823404477547
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "Mainplayer",
+					"sid": 644963832406364,
+					"parameters": {
+						"comparison": 4,
+						"x-co-ordinate": "6786"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "lv1_obs_q6",
+					"sid": 566119551328740,
+					"parameters": {
+						"object": "Mainplayer",
+						"image-point-optional": "0"
+					}
+				}
+			],
+			"sid": 617639932458499
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Mainplayer",
+					"sid": 215369747257312,
+					"parameters": {
+						"object": "lv1_obs_q6"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "lv1_obs_q6",
+					"sid": 716094910375340
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 318958080204965,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Mainplayer",
+					"sid": 419377928659167,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "lv1_q6",
+					"sid": 720283144877674,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "LayoutHeight/2",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 852172505429167
 		}
 	],
 	"sid": 285314590265717
