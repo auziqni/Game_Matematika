@@ -226,7 +226,14 @@
 					{
 						"items": [
 							"OnConstruction",
-							"lv2_mainmenu"
+							"lv2_mainmenu",
+							"lv2_obs_q1",
+							"lv2_obs_q4",
+							"lv2_obs_q2",
+							"lv2_obs_q5",
+							"lv2_obs_q3",
+							"lv2_finish",
+							"lv2_obs_q6"
 						],
 						"subfolders": [],
 						"name": "lv2"

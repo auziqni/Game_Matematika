@@ -1,0 +1,49 @@
+{
+	"name": "lv2_finish",
+	"plugin-id": "Sprite",
+	"sid": 736486268197664,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 172,
+						"height": 308,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2745791,
+						"collisionPoly": {
+							"points": [
+								0.005813953488372093,
+								0.003246753246753247,
+								0.9941860465116279,
+								0.003246753246753247,
+								0.9941860465116279,
+								0.9967532467532467,
+								0.005813953488372093,
+								0.9967532467532467
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 460016162710025,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
