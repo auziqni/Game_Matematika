@@ -1,0 +1,45 @@
+{
+	"name": "lv3_obs_q1",
+	"plugin-id": "Sprite",
+	"sid": 325897591408925,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "nyawa",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 315444735197079
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 128,
+						"height": 371,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4394139,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 604173410740444,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

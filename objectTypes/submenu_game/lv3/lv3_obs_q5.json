@@ -1,0 +1,49 @@
+{
+	"name": "lv3_obs_q5",
+	"plugin-id": "Sprite",
+	"sid": 202662895897138,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5038759689922481,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3789188,
+						"collisionPoly": {
+							"points": [
+								0.0025906735751295338,
+								0.007751937984496124,
+								0.9974093264248705,
+								0.007751937984496124,
+								0.9974093264248705,
+								1,
+								0.0025906735751295338,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 521802224807193,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

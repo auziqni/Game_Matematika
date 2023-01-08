@@ -133,7 +133,8 @@
 			"Touch",
 			"Browser",
 			"popupJawabanBenar",
-			"popupJawabanSalah"
+			"popupJawabanSalah",
+			"tile2"
 		],
 		"subfolders": [
 			{
@@ -233,7 +234,13 @@
 							"lv2_obs_q5",
 							"lv2_obs_q3",
 							"lv2_finish",
-							"lv2_obs_q6"
+							"lv2_obs_q6",
+							"lv2_q1",
+							"lv2_q2",
+							"lv2_q3",
+							"lv2_q4",
+							"lv2_q5",
+							"lv2_q6"
 						],
 						"subfolders": [],
 						"name": "lv2"
@@ -241,7 +248,14 @@
 					{
 						"items": [
 							"OnConstruction2",
-							"lv3_mainmenu"
+							"lv3_mainmenu",
+							"lv3_obs_q1",
+							"lv3_obs_q2",
+							"lv3_obs_q4",
+							"lv3_obs_q6",
+							"lv3_finish",
+							"lv3_obs_q3",
+							"lv3_obs_q5"
 						],
 						"subfolders": [],
 						"name": "lv3"
@@ -283,35 +297,40 @@
 					},
 					{
 						"items": [
-							"materi_persegipanjang"
+							"materi_persegipanjang",
+							"materiPersegiPanjang"
 						],
 						"subfolders": [],
 						"name": "persegi panjang"
 					},
 					{
 						"items": [
-							"materi_belahketupat"
+							"materi_belahketupat",
+							"materiBelahKetupat"
 						],
 						"subfolders": [],
 						"name": "belah ketupat"
 					},
 					{
 						"items": [
-							"materi_jajargenjang"
+							"materi_jajargenjang",
+							"materiJajarGenjang"
 						],
 						"subfolders": [],
 						"name": "jajar genjang"
 					},
 					{
 						"items": [
-							"materi_layanglayang"
+							"materi_layanglayang",
+							"materiLayangLayang"
 						],
 						"subfolders": [],
 						"name": "layang layang"
 					},
 					{
 						"items": [
-							"materi_tarapesium"
+							"materi_tarapesium",
+							"materiTrapesium"
 						],
 						"subfolders": [],
 						"name": "trapesium"
