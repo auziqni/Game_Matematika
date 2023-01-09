@@ -96,22 +96,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Persist",
-			"name": "Persist",
-			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "bound",
-			"name": "Bound to layout",
-			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
@@ -122,7 +106,6 @@
 	"uniqueId": "7kge520p6m0",
 	"objectTypes": {
 		"items": [
-			"backround",
 			"tile1",
 			"tile3",
 			"tile4",

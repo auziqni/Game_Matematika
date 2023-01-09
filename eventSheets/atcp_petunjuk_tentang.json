@@ -26,6 +26,30 @@
 				}
 			],
 			"sid": 747049367063374
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 926020896295275,
+					"parameters": {
+						"object": "backtomainmenu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 594261086228511,
+					"parameters": {
+						"layout": "MainMenu"
+					}
+				}
+			],
+			"sid": 719160559982973
 		}
 	],
 	"sid": 441562939978649

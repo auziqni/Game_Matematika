@@ -31,6 +31,30 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 521058082352696,
+					"parameters": {
+						"object": "backtomainmenu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 450162076756507,
+					"parameters": {
+						"layout": "MainMenu"
+					}
+				}
+			],
+			"sid": 750645212499709
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 709579497612624,

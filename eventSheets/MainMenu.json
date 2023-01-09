@@ -48,6 +48,47 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 573886932341373,
+					"parameters": {
+						"object": "exit"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-one-property",
+					"objectClass": "confirmout",
+					"sid": 253619802245323,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "450",
+						"time": "1",
+						"ease": "easeinback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "menu3",
+					"sid": 580896116809535,
+					"parameters": {
+						"x": "-225",
+						"y": "0"
+					}
+				}
+			],
+			"sid": 274962507516791
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 257486006715344,
@@ -94,6 +135,55 @@
 				}
 			],
 			"sid": 298561712417751
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 611505893192591,
+					"parameters": {
+						"object": "exitno"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-one-property",
+					"objectClass": "confirmout",
+					"sid": 515050284862994,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "-450",
+						"time": "1",
+						"ease": "easeinback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 498007510804062,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "menu3",
+					"sid": 361426316662091,
+					"parameters": {
+						"x": "529",
+						"y": "502"
+					}
+				}
+			],
+			"sid": 316984739026708
 		},
 		{
 			"eventType": "block",
@@ -146,6 +236,51 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 541115736094644,
+					"parameters": {
+						"object": "exitya"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-one-property",
+					"objectClass": "confirmout",
+					"sid": 842305246596567,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetY",
+						"end-value": "-450",
+						"time": "1",
+						"ease": "easeinback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 835392469963963,
+					"parameters": {
+						"seconds": "1.5"
+					}
+				},
+				{
+					"id": "close",
+					"objectClass": "Browser",
+					"sid": 584950199521548
+				}
+			],
+			"sid": 550713460332150
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 223451721019509,
@@ -167,6 +302,30 @@
 				}
 			],
 			"sid": 326746642882697
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 944514664582171,
+					"parameters": {
+						"object": "menu1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 581473491079557,
+					"parameters": {
+						"layout": "atcp"
+					}
+				}
+			],
+			"sid": 840674563077486
 		},
 		{
 			"eventType": "block",
@@ -198,6 +357,30 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 409990735319159,
+					"parameters": {
+						"object": "menu2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 640229426052719,
+					"parameters": {
+						"layout": "allmateri"
+					}
+				}
+			],
+			"sid": 191158953146833
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 636259632788048,
@@ -219,6 +402,30 @@
 				}
 			],
 			"sid": 473302636707345
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 698983941164072,
+					"parameters": {
+						"object": "menu3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 184361971721647,
+					"parameters": {
+						"layout": "PilihLv"
+					}
+				}
+			],
+			"sid": 677393163041418
 		},
 		{
 			"eventType": "block",
@@ -250,6 +457,30 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 942627358583514,
+					"parameters": {
+						"object": "menu4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 170898903647673,
+					"parameters": {
+						"layout": "petunjuk"
+					}
+				}
+			],
+			"sid": 536554087926156
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 643845211188212,
@@ -271,6 +502,30 @@
 				}
 			],
 			"sid": 997084986453094
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 468760016858500,
+					"parameters": {
+						"object": "menu5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 600782943487151,
+					"parameters": {
+						"layout": "Tentang"
+					}
+				}
+			],
+			"sid": 844866978137638
 		}
 	],
 	"sid": 571046512897473
