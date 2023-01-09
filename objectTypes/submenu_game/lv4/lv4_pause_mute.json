@@ -1,0 +1,9 @@
+{
+	"name": "lv4_pause_mute",
+	"plugin-id": "Text",
+	"sid": 501247561108465,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

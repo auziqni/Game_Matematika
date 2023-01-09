@@ -1,0 +1,9 @@
+{
+	"name": "lv2_GameOverReset",
+	"plugin-id": "Text",
+	"sid": 499146320268018,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

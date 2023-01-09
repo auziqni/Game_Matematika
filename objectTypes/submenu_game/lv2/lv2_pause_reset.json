@@ -1,0 +1,9 @@
+{
+	"name": "lv2_pause_reset",
+	"plugin-id": "Text",
+	"sid": 813850497831754,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

@@ -1,43 +1,15 @@
 {
 	"name": "Lv1_Nama",
-	"plugin-id": "Sprite",
-	"sid": 783357758268093,
+	"plugin-id": "Text",
+	"sid": 718437322164030,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Anchor",
 			"name": "Anchor",
-			"sid": 818229977241223
+			"sid": 123761911332277
 		}
 	],
-	"effectTypes": [],
-	"animations": {
-		"items": [
-			{
-				"frames": [
-					{
-						"width": 147,
-						"height": 30,
-						"originX": 0.5,
-						"originY": 0.5,
-						"originalSource": "",
-						"exportFormat": "lossless",
-						"exportQuality": 0.8,
-						"imageSpriteId": 7516531,
-						"useCollisionPoly": true,
-						"duration": 1
-					}
-				],
-				"sid": 860093838631709,
-				"name": "Default",
-				"isLooping": false,
-				"isPingPong": false,
-				"repeatCount": 1,
-				"repeatTo": 0,
-				"speed": 5
-			}
-		],
-		"subfolders": []
-	}
+	"effectTypes": []
 }

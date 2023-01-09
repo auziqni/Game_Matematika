@@ -1,0 +1,9 @@
+{
+	"name": "lv2_pause_resume",
+	"plugin-id": "Text",
+	"sid": 598920535504646,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

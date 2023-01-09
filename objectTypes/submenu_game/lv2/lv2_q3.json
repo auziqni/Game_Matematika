@@ -4,7 +4,13 @@
 	"sid": 920037394613113,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Tween",
+			"name": "Tween",
+			"sid": 336381341293634
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [

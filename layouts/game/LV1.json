@@ -724,7 +724,7 @@
 					}
 				},
 				{
-					"type": "lv1_finish",
+					"type": "finish",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",
@@ -784,7 +784,7 @@
 					}
 				},
 				{
-					"type": "lv1_pauseimg",
+					"type": "pauseimg",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",
@@ -1241,45 +1241,6 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Lv1_Nama",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 30,
-					"instanceVariables": {},
-					"behaviors": {
-						"Anchor": {
-							"properties": {
-								"left-edge": "window-left",
-								"top-edge": "window-top",
-								"right-edge": "none",
-								"bottom-edge": "none",
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 95,
-						"y": 40,
-						"width": 147,
-						"height": 30,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "lv1_heart",
 					"properties": {
 						"text": "3",
@@ -1315,8 +1276,8 @@
 						}
 					},
 					"world": {
-						"x": 99.52253505862802,
-						"y": 79.93794803335987,
+						"x": 100,
+						"y": 80,
 						"width": 57.99307945060423,
 						"height": 46.764705898192574,
 						"originX": 0,
@@ -1354,8 +1315,8 @@
 						}
 					},
 					"world": {
-						"x": 46.39792378132648,
-						"y": 105.11764691626689,
+						"x": 50,
+						"y": 104,
 						"width": 60,
 						"height": 60,
 						"originX": 0.5,
@@ -1406,8 +1367,8 @@
 						}
 					},
 					"world": {
-						"x": 99.99179225574551,
-						"y": 140.74295537270368,
+						"x": 100,
+						"y": 140,
 						"width": 131.955017236748,
 						"height": 46.764705898192574,
 						"originX": 0,
@@ -1423,7 +1384,7 @@
 					}
 				},
 				{
-					"type": "mainPlayer_gold",
+					"type": "MainPlayer_gold",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",
@@ -1445,8 +1406,8 @@
 						}
 					},
 					"world": {
-						"x": 51.09172403004405,
-						"y": 171.52764439038322,
+						"x": 51,
+						"y": 171,
 						"width": 65.9169550228915,
 						"height": 61.972318340963824,
 						"originX": 0.5,
@@ -1498,8 +1459,8 @@
 						}
 					},
 					"world": {
-						"x": 184,
-						"y": 572,
+						"x": 150,
+						"y": 500,
 						"width": 100,
 						"height": 99,
 						"originX": 0.5,
@@ -1646,8 +1607,8 @@
 						}
 					},
 					"world": {
-						"x": -497,
-						"y": 446,
+						"x": -490,
+						"y": 450,
 						"width": 965,
 						"height": 579,
 						"originX": 0.5,
@@ -1663,7 +1624,7 @@
 					}
 				},
 				{
-					"type": "lv1_finishClickAny",
+					"type": "finishClickAny",
 					"properties": {
 						"text": "",
 						"enable-bbcode": true,
@@ -2010,8 +1971,8 @@
 						}
 					},
 					"world": {
-						"x": 8507,
-						"y": 451,
+						"x": 8500,
+						"y": 450,
 						"width": 907,
 						"height": 683,
 						"originX": 0.5,
@@ -4335,8 +4296,8 @@
 						}
 					},
 					"world": {
-						"x": 345,
-						"y": 1102,
+						"x": 270,
+						"y": 1050,
 						"width": 539,
 						"height": 225,
 						"originX": 0.5,
@@ -4368,12 +4329,64 @@
 						}
 					},
 					"world": {
-						"x": 920,
-						"y": 1107,
+						"x": 850,
+						"y": 1050,
 						"width": 539,
 						"height": 225,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Lv1_Nama",
+					"properties": {
+						"text": "LEVEL 01",
+						"enable-bbcode": true,
+						"font": "fantasy",
+						"size": 31,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 205,
+					"instanceVariables": {},
+					"behaviors": {
+						"Anchor": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 21,
+						"y": 16,
+						"width": 142,
+						"height": 56,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,

@@ -1,0 +1,15 @@
+{
+	"name": "Lv5_Nama",
+	"plugin-id": "Text",
+	"sid": 332718626145740,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Anchor",
+			"sid": 906881117376517
+		}
+	],
+	"effectTypes": []
+}

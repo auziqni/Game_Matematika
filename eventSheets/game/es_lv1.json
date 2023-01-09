@@ -21,6 +21,24 @@
 					}
 				},
 				{
+					"id": "set-jump-strength",
+					"objectClass": "Mainplayer",
+					"sid": 476561678825257,
+					"behaviorType": "Platform",
+					"parameters": {
+						"jump-strength": "800"
+					}
+				},
+				{
+					"id": "set-double-jump",
+					"objectClass": "Mainplayer",
+					"sid": 883185515939410,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
 					"id": "set-position",
 					"objectClass": "Mainplayer",
 					"sid": 317235024790397,
@@ -91,21 +109,29 @@
 			],
 			"actions": [
 				{
+					"id": "set-enabled",
+					"objectClass": "Mainplayer",
+					"sid": 347501656339805,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 911813716668137,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
 					"id": "set-position",
 					"objectClass": "onGameOver",
 					"sid": 137896811270993,
 					"parameters": {
-						"x": "lv1_pauseimg.X-700",
+						"x": "pauseimg.X-700",
 						"y": "LayoutHeight/2"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "Mainplayer",
-					"sid": 693713476993370,
-					"behaviorType": "Platform",
-					"parameters": {
-						"state": "enabled"
 					}
 				}
 			],
@@ -173,7 +199,7 @@
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "lv1_pauseimg"
+						"object-clicked": "pauseimg"
 					}
 				}
 			],
@@ -186,7 +212,7 @@
 					"parameters": {
 						"tags": "\"\"",
 						"property": "offsetX",
-						"end-value": "lv1_pauseimg.X-734",
+						"end-value": "pauseimg.X-734",
 						"time": "1",
 						"ease": "default",
 						"destroy-on-complete": "no",
@@ -361,40 +387,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 339377200985400,
-					"parameters": {
-						"key": 38
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-jump-strength",
-					"objectClass": "Mainplayer",
-					"sid": 139756917176014,
-					"behaviorType": "Platform",
-					"parameters": {
-						"jump-strength": "800"
-					}
-				},
-				{
-					"id": "set-double-jump",
-					"objectClass": "Mainplayer",
-					"sid": 990145325290269,
-					"behaviorType": "Platform",
-					"parameters": {
-						"state": "enabled"
-					}
-				}
-			],
-			"sid": 563446103577675
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "compare-y",
 					"objectClass": "Mainplayer",
 					"sid": 433837476679162,
@@ -431,7 +423,7 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "lv1_finish",
+					"objectClass": "finish",
 					"sid": 367967628466879,
 					"parameters": {
 						"object": "Mainplayer"
@@ -477,7 +469,7 @@
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "lv1_finishClickAny"
+						"object-clicked": "finishClickAny"
 					}
 				}
 			],
@@ -519,7 +511,7 @@
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "lv1rightans"
+						"object-clicked": "rightans"
 					}
 				}
 			],
@@ -642,7 +634,7 @@
 					"objectClass": "popupJawabanBenar",
 					"sid": 546902190138401,
 					"parameters": {
-						"x": "lv1_pauseimg.X-735",
+						"x": "pauseimg.X-735",
 						"y": "LayoutHeight/2"
 					}
 				},
@@ -684,7 +676,7 @@
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "lv1wrongans"
+						"object-clicked": "wrongans"
 					}
 				}
 			],
@@ -816,14 +808,14 @@
 					"objectClass": "popupJawabanSalah",
 					"sid": 122758571027695,
 					"parameters": {
-						"x": "lv1_pauseimg.X-735",
+						"x": "pauseimg.X-735",
 						"y": "LayoutHeight/2"
 					}
 				},
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 703204908719012,
+					"sid": 201662295852985,
 					"parameters": {
 						"seconds": "2.0"
 					}

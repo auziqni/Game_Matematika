@@ -1,0 +1,9 @@
+{
+	"name": "lv2_GameOverMenu",
+	"plugin-id": "Text",
+	"sid": 300710664156676,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

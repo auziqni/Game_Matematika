@@ -1,0 +1,15 @@
+{
+	"name": "lv4_heart",
+	"plugin-id": "Text",
+	"sid": 447980431369668,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Anchor",
+			"sid": 108894512528522
+		}
+	],
+	"effectTypes": []
+}

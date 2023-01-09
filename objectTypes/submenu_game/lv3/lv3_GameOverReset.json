@@ -1,0 +1,9 @@
+{
+	"name": "lv3_GameOverReset",
+	"plugin-id": "Text",
+	"sid": 627472144881900,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}
