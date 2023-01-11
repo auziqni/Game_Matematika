@@ -24,6 +24,14 @@
 		},
 		{
 			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
@@ -115,7 +123,8 @@
 			"Mouse",
 			"Touch",
 			"Browser",
-			"tile2"
+			"tile2",
+			"TiledBackground"
 		],
 		"subfolders": [
 			{
@@ -202,7 +211,8 @@
 							"lv1_q62",
 							"lv1_q63",
 							"lv1_q64",
-							"Lv1_Nama"
+							"Lv1_Nama",
+							"TiledBackground2"
 						],
 						"subfolders": [],
 						"name": "lv1"
@@ -253,7 +263,8 @@
 							"lv2_q61",
 							"lv2_q62",
 							"lv2_q63",
-							"lv2_q64"
+							"lv2_q64",
+							"TiledBackground3"
 						],
 						"subfolders": [],
 						"name": "lv2"
@@ -304,7 +315,8 @@
 							"lv3_q61",
 							"lv3_q62",
 							"lv3_q63",
-							"lv3_q64"
+							"lv3_q64",
+							"TiledBackground4"
 						],
 						"subfolders": [],
 						"name": "lv3"
@@ -355,7 +367,8 @@
 							"lv4_q61",
 							"lv4_q62",
 							"lv4_q63",
-							"lv4_q64"
+							"lv4_q64",
+							"TiledBackground5"
 						],
 						"subfolders": [],
 						"name": "lv4"
@@ -406,7 +419,8 @@
 							"lv5_q61",
 							"lv5_q62",
 							"lv5_q63",
-							"lv5_q64"
+							"lv5_q64",
+							"TiledBackground6"
 						],
 						"subfolders": [],
 						"name": "lv5"
