@@ -68,6 +68,35 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "is-tag-playing",
+					"objectClass": "Audio",
+					"sid": 304581234639705,
+					"parameters": {
+						"tag": "\"BGsound\""
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 299569360430197,
+					"parameters": {
+						"audio-file": "X2Download.app - Professor Layton and the Last Time Travel OST 28 - The Professor's Trunk (Minicar) (HQ Version) (128 kbps)",
+						"loop": "looping",
+						"volume": "40",
+						"stereo-pan": "0",
+						"tag-optional": "\"BGsound\""
+					}
+				}
+			],
+			"sid": 206849980061249
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "is-on-screen",
 					"objectClass": "Mainplayer",
 					"sid": 699505998904898
@@ -828,6 +857,29 @@
 					"behaviorType": "Platform",
 					"parameters": {
 						"state": "disabled"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 987339241265113,
+					"parameters": {
+						"audio-file": "X2Download.app - 🎮👾 Retro Video Game Arcade 8 Bit [Sound Effects] Free Download Audio Background for Edits (128 kbps)-[AudioTrimmer.com]",
+						"loop": "not-looping",
+						"volume": "50",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "fade-volume",
+					"objectClass": "Audio",
+					"sid": 536745219869497,
+					"parameters": {
+						"tag": "\"BGsound\"",
+						"db": "-100",
+						"duration": "3",
+						"ending": "stop"
 					}
 				}
 			],
@@ -1665,6 +1717,18 @@
 						"loop": "no",
 						"ping-pong": "no"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 895917295080752,
+					"parameters": {
+						"audio-file": "X2Download.app - 🎮👾 Retro Video Game Arcade 8 Bit [Sound Effects] Free Download Audio Background for Edits (128 kbps)-[AudioTrimmer.com] (1)",
+						"loop": "not-looping",
+						"volume": "75",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 141024765870024
@@ -1745,6 +1809,18 @@
 						"loop": "no",
 						"ping-pong": "no"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 290300458953549,
+					"parameters": {
+						"audio-file": "X2Download.app - 🎮👾 Retro Video Game Arcade 8 Bit [Sound Effects] Free Download Audio Background for Edits (128 kbps)-[AudioTrimmer.com] (1)",
+						"loop": "not-looping",
+						"volume": "75",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 399239326311042
@@ -1798,6 +1874,18 @@
 						"destroy-on-complete": "no",
 						"loop": "no",
 						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 172896875614132,
+					"parameters": {
+						"audio-file": "X2Download.app - 🎮👾 Retro Video Game Arcade 8 Bit [Sound Effects] Free Download Audio Background for Edits (128 kbps)-[AudioTrimmer.com] (1)",
+						"loop": "not-looping",
+						"volume": "75",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
@@ -1879,6 +1967,18 @@
 						"loop": "no",
 						"ping-pong": "no"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 740788044420290,
+					"parameters": {
+						"audio-file": "X2Download.app - 🎮👾 Retro Video Game Arcade 8 Bit [Sound Effects] Free Download Audio Background for Edits (128 kbps)-[AudioTrimmer.com] (1)",
+						"loop": "not-looping",
+						"volume": "75",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 473879814030090
@@ -1959,6 +2059,18 @@
 						"loop": "no",
 						"ping-pong": "no"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 266076621302211,
+					"parameters": {
+						"audio-file": "X2Download.app - 🎮👾 Retro Video Game Arcade 8 Bit [Sound Effects] Free Download Audio Background for Edits (128 kbps)-[AudioTrimmer.com] (1)",
+						"loop": "not-looping",
+						"volume": "75",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 853154259889249
@@ -2038,6 +2150,18 @@
 						"destroy-on-complete": "no",
 						"loop": "no",
 						"ping-pong": "no"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 379937679104650,
+					"parameters": {
+						"audio-file": "X2Download.app - 🎮👾 Retro Video Game Arcade 8 Bit [Sound Effects] Free Download Audio Background for Edits (128 kbps)-[AudioTrimmer.com] (1)",
+						"loop": "not-looping",
+						"volume": "75",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],

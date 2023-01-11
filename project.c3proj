@@ -63,6 +63,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Tween",
 			"name": "Tween",
@@ -127,7 +135,9 @@
 			"TiledBackground",
 			"CtrlL",
 			"CtrlR",
-			"CtrlU"
+			"CtrlU",
+			"Audio",
+			"Text"
 		],
 		"subfolders": [
 			{
@@ -597,7 +607,32 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "X2Download.app - Professor Layton and the Last Time Travel OST 28 - The Professor's Trunk (Minicar) (HQ Version) (128 kbps).webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 828246132375570,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "X2Download.app - 🎮👾 Retro Video Game Arcade 8 Bit [Sound Effects] Free Download Audio Background for Edits (128 kbps)-[AudioTrimmer.com] (1).webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 584869256044921,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "X2Download.app - 🎮👾 Retro Video Game Arcade 8 Bit [Sound Effects] Free Download Audio Background for Edits (128 kbps)-[AudioTrimmer.com].webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 452425497042517,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
