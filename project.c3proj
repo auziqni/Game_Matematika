@@ -124,7 +124,10 @@
 			"Touch",
 			"Browser",
 			"tile2",
-			"TiledBackground"
+			"TiledBackground",
+			"CtrlL",
+			"CtrlR",
+			"CtrlU"
 		],
 		"subfolders": [
 			{
@@ -730,7 +733,7 @@
 		"renderingMode": "auto",
 		"anisotropicFiltering": "auto",
 		"maxSpriteSheetSize": 2048,
-		"loaderStyle": "splash",
+		"loaderStyle": "progress-logo",
 		"preloadSounds": true,
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https",

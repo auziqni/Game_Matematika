@@ -81,6 +81,30 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 964213320188780,
+					"parameters": {
+						"object": "gamelv1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 692780422578587,
+					"parameters": {
+						"layout": "LV1"
+					}
+				}
+			],
+			"sid": 134981685325262
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 491015440641167,
@@ -102,6 +126,30 @@
 				}
 			],
 			"sid": 302486433336090
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 211007236956580,
+					"parameters": {
+						"object": "gamelv2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 487262762981531,
+					"parameters": {
+						"layout": "LV2"
+					}
+				}
+			],
+			"sid": 953835211696078
 		},
 		{
 			"eventType": "block",
@@ -133,6 +181,30 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 441771884629714,
+					"parameters": {
+						"object": "gamelv3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 250807285259442,
+					"parameters": {
+						"layout": "LV3"
+					}
+				}
+			],
+			"sid": 892631510801089
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 823006868676741,
@@ -159,6 +231,30 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 516694062821631,
+					"parameters": {
+						"object": "gamelv4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 456132992244538,
+					"parameters": {
+						"layout": "LV4"
+					}
+				}
+			],
+			"sid": 849143882637685
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 780387374688739,
@@ -180,6 +276,30 @@
 				}
 			],
 			"sid": 747545410348844
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 131292640763822,
+					"parameters": {
+						"object": "gamelv5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 192481343095552,
+					"parameters": {
+						"layout": "LV5"
+					}
+				}
+			],
+			"sid": 126983219532189
 		}
 	],
 	"sid": 169927347176645

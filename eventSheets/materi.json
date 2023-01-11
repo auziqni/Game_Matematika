@@ -81,6 +81,30 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 954496041139960,
+					"parameters": {
+						"object": "backtoallmateri"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 688944214190473,
+					"parameters": {
+						"layout": "allmateri"
+					}
+				}
+			],
+			"sid": 124581212089090
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 242191142823492,
@@ -102,6 +126,30 @@
 				}
 			],
 			"sid": 460108549998461
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 157440120539329,
+					"parameters": {
+						"object": "materi_persegi"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 158451221443108,
+					"parameters": {
+						"layout": "M_persegi"
+					}
+				}
+			],
+			"sid": 709573913096412
 		},
 		{
 			"eventType": "block",
@@ -133,6 +181,30 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 490388932704817,
+					"parameters": {
+						"object": "materi_persegipanjang"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 548570318205524,
+					"parameters": {
+						"layout": "M_persegipanjang"
+					}
+				}
+			],
+			"sid": 433108087579759
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 172862444966538,
@@ -154,6 +226,30 @@
 				}
 			],
 			"sid": 907844164285194
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 882355113998425,
+					"parameters": {
+						"object": "materi_belahketupat"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 702082879309112,
+					"parameters": {
+						"layout": "M_belahketupat"
+					}
+				}
+			],
+			"sid": 228190695158464
 		},
 		{
 			"eventType": "block",
@@ -185,6 +281,30 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 645965541529030,
+					"parameters": {
+						"object": "materi_jajargenjang"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 174052661950847,
+					"parameters": {
+						"layout": "M_jajargenjang"
+					}
+				}
+			],
+			"sid": 910085724344918
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 900082130895380,
@@ -211,6 +331,30 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 344741919845976,
+					"parameters": {
+						"object": "materi_layanglayang"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 147952731469788,
+					"parameters": {
+						"layout": "M_layanglayang"
+					}
+				}
+			],
+			"sid": 190540658452181
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 727612713777851,
@@ -232,6 +376,30 @@
 				}
 			],
 			"sid": 619857985889402
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 740478577525892,
+					"parameters": {
+						"object": "materi_tarapesium"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 780898572279723,
+					"parameters": {
+						"layout": "M_trapesium"
+					}
+				}
+			],
+			"sid": 900255606604201
 		}
 	],
 	"sid": 836555949136225
