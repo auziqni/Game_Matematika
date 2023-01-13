@@ -434,7 +434,14 @@
 					},
 					"uid": 180,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
 						"x": 3219,
 						"y": 735,
@@ -535,7 +542,14 @@
 					},
 					"uid": 183,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
 						"x": 3878,
 						"y": 626,
@@ -780,7 +794,14 @@
 					},
 					"uid": 191,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
 						"x": 6344,
 						"y": 626,
@@ -845,7 +866,14 @@
 					},
 					"uid": 193,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
 						"x": 6784,
 						"y": 737,
@@ -982,7 +1010,14 @@
 					},
 					"uid": 197,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
 						"x": 7722,
 						"y": 845,
@@ -1220,7 +1255,7 @@
 				{
 					"type": "Lv3_Nama",
 					"properties": {
-						"text": "LEVEL 01",
+						"text": "LEVEL 03",
 						"enable-bbcode": true,
 						"font": "fantasy",
 						"size": 31,
@@ -1255,7 +1290,7 @@
 					"world": {
 						"x": 21,
 						"y": 16,
-						"width": 142,
+						"width": 198,
 						"height": 56,
 						"originX": 0,
 						"originY": 0,

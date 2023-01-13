@@ -1106,7 +1106,9 @@
 						"origin": "top-left"
 					},
 					"uid": 98,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"muted": 1
+					},
 					"behaviors": {},
 					"sceneGraphData": {
 						"parent-uid": 95,
@@ -4423,8 +4425,8 @@
 						}
 					},
 					"world": {
-						"x": 270,
-						"y": 1050,
+						"x": 268,
+						"y": 1051,
 						"width": 539,
 						"height": 225,
 						"originX": 0.5,
@@ -4510,7 +4512,7 @@
 					"world": {
 						"x": 21,
 						"y": 16,
-						"width": 142,
+						"width": 184,
 						"height": 56,
 						"originX": 0,
 						"originY": 0,

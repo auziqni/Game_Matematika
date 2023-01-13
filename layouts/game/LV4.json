@@ -290,7 +290,14 @@
 					},
 					"uid": 206,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
 						"x": 771,
 						"y": 458,
@@ -420,7 +427,14 @@
 					},
 					"uid": 210,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
 						"x": 1835,
 						"y": 567,
@@ -989,7 +1003,14 @@
 					},
 					"uid": 226,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
 						"x": 4581,
 						"y": 664,
@@ -1374,7 +1395,7 @@
 				{
 					"type": "Lv4_Nama",
 					"properties": {
-						"text": "LEVEL 01",
+						"text": "LEVEL 04",
 						"enable-bbcode": true,
 						"font": "fantasy",
 						"size": 31,
@@ -1409,7 +1430,7 @@
 					"world": {
 						"x": 21,
 						"y": 16,
-						"width": 142,
+						"width": 177,
 						"height": 56,
 						"originX": 0,
 						"originY": 0,

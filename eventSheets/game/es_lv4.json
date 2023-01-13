@@ -48,6 +48,14 @@
 					}
 				},
 				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 107950475870178,
+					"parameters": {
+						"seconds": "1.5"
+					}
+				},
+				{
 					"id": "set-enabled",
 					"objectClass": "Mainplayer",
 					"sid": 399985457794289,
@@ -138,9 +146,21 @@
 			],
 			"actions": [
 				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 917034969243865,
+					"parameters": {
+						"audio-file": "game over",
+						"loop": "not-looping",
+						"volume": "80",
+						"stereo-pan": "0",
+						"tag-optional": "\"gameover\""
+					}
+				},
+				{
 					"id": "set-enabled",
 					"objectClass": "Mainplayer",
-					"sid": 252609676532620,
+					"sid": 269893625026172,
 					"behaviorType": "Platform",
 					"parameters": {
 						"state": "disabled"
@@ -149,18 +169,34 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 210952526395499,
+					"sid": 336743088909579,
 					"parameters": {
-						"seconds": "2.0"
+						"seconds": "1.0"
 					}
 				},
 				{
 					"id": "set-position",
 					"objectClass": "onGameOver",
-					"sid": 427352078325195,
+					"sid": 632331285657312,
 					"parameters": {
 						"x": "pauseimg.X-700",
 						"y": "LayoutHeight/2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 444395453667324,
+					"parameters": {
+						"seconds": "1.7"
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 283813711882584,
+					"parameters": {
+						"tag": "\"gameover\""
 					}
 				}
 			],
@@ -238,6 +274,16 @@
 					"parameters": {
 						"layout": "PilihLv"
 					}
+				},
+				{
+					"id": "move-to-bottom",
+					"objectClass": "Mainplayer",
+					"sid": 646528932554420
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 264628842935680
 				}
 			],
 			"sid": 221841885977099
@@ -262,6 +308,16 @@
 					"parameters": {
 						"layout": "PilihLv"
 					}
+				},
+				{
+					"id": "move-to-bottom",
+					"objectClass": "Mainplayer",
+					"sid": 230725907141770
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 745969973552222
 				}
 			],
 			"sid": 441519882966447
@@ -488,6 +544,16 @@
 					"parameters": {
 						"layout": "PilihLv"
 					}
+				},
+				{
+					"id": "move-to-bottom",
+					"objectClass": "Mainplayer",
+					"sid": 272377145734490
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 182048761730946
 				}
 			],
 			"sid": 954307062138756
@@ -512,6 +578,16 @@
 					"parameters": {
 						"layout": "PilihLv"
 					}
+				},
+				{
+					"id": "move-to-bottom",
+					"objectClass": "Mainplayer",
+					"sid": 631554251252356
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 233823584869584
 				}
 			],
 			"sid": 258126071073556
@@ -530,7 +606,17 @@
 					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "set-muted",
+					"objectClass": "Audio",
+					"sid": 334861596879671,
+					"parameters": {
+						"tag": "\"BGsound\"",
+						"state": "muted"
+					}
+				}
+			],
 			"sid": 754662123216685
 		},
 		{
@@ -545,7 +631,17 @@
 					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "set-muted",
+					"objectClass": "Audio",
+					"sid": 797697992522157,
+					"parameters": {
+						"tag": "\"BGsound\"",
+						"state": "muted"
+					}
+				}
+			],
 			"sid": 604376994259261
 		},
 		{
@@ -668,57 +764,43 @@
 				{
 					"id": "cursor-is-over-object",
 					"objectClass": "Mouse",
-					"sid": 125277741280657,
+					"sid": 492439927121788,
 					"parameters": {
 						"object": "CtrlU"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "simulate-control",
-					"objectClass": "Mainplayer",
-					"sid": 140825289020881,
-					"behaviorType": "Platform",
-					"parameters": {
-						"control": "jump"
-					}
-				}
-			],
-			"sid": 102526153781099
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-tap-object",
-					"objectClass": "Touch",
-					"sid": 547781659743743,
-					"parameters": {
-						"object": "CtrlU"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-mirrored",
-					"objectClass": "Mainplayer",
-					"sid": 870933188523594,
-					"parameters": {
-						"state": "mirrored"
 					}
 				},
 				{
+					"id": "is-jumping",
+					"objectClass": "Mainplayer",
+					"sid": 248127854162007,
+					"behaviorType": "Platform",
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
 					"id": "simulate-control",
 					"objectClass": "Mainplayer",
-					"sid": 668741350955167,
+					"sid": 652642811591540,
 					"behaviorType": "Platform",
 					"parameters": {
 						"control": "jump"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 718019981811169,
+					"parameters": {
+						"audio-file": "lompat",
+						"loop": "not-looping",
+						"volume": "60",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
-			"sid": 459133718935508
+			"sid": 282162473148785
 		},
 		{
 			"eventType": "block",
@@ -785,6 +867,50 @@
 				}
 			],
 			"sid": 325215328993933
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 129556936164360,
+					"parameters": {
+						"object": "CtrlU"
+					}
+				},
+				{
+					"id": "is-jumping",
+					"objectClass": "Mainplayer",
+					"sid": 374581144942006,
+					"behaviorType": "Platform",
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Mainplayer",
+					"sid": 492277573493847,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "jump"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 616215914216734,
+					"parameters": {
+						"audio-file": "lompat",
+						"loop": "not-looping",
+						"volume": "60",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 867518945438855
 		},
 		{
 			"eventType": "block",
@@ -1089,8 +1215,8 @@
 				},
 				{
 					"id": "set-visible",
-					"objectClass": "popupJawabanSalah",
-					"sid": 894075632583535,
+					"objectClass": "popupJawabanBenar",
+					"sid": 655185497957689,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -1252,8 +1378,8 @@
 				},
 				{
 					"id": "set-visible",
-					"objectClass": "popupJawabanSalah",
-					"sid": 181569673925165,
+					"objectClass": "popupJawabanBenar",
+					"sid": 696536950056228,
 					"parameters": {
 						"visibility": "visible"
 					}

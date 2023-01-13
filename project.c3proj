@@ -631,6 +631,22 @@
 					"file-info": {
 						"purpose": "none"
 					}
+				},
+				{
+					"name": "game over.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 789195242221567,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "lompat.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 386838314106705,
+					"file-info": {
+						"purpose": "none"
+					}
 				}
 			],
 			"subfolders": []

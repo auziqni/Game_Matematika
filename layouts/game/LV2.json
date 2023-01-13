@@ -1257,7 +1257,7 @@
 				{
 					"type": "Lv2_Nama",
 					"properties": {
-						"text": "LEVEL 01",
+						"text": "LEVEL 02",
 						"enable-bbcode": true,
 						"font": "fantasy",
 						"size": 31,
@@ -1292,7 +1292,7 @@
 					"world": {
 						"x": 21,
 						"y": 16,
-						"width": 142,
+						"width": 179,
 						"height": 56,
 						"originX": 0,
 						"originY": 0,
@@ -1499,7 +1499,14 @@
 					},
 					"uid": 348,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
 						"x": 7839,
 						"y": 624,

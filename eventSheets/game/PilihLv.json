@@ -73,6 +73,11 @@
 					"parameters": {
 						"layout": "LV1"
 					}
+				},
+				{
+					"id": "move-to-bottom",
+					"objectClass": "Mainplayer",
+					"sid": 249994125289953
 				}
 			],
 			"sid": 430339858637404
@@ -97,6 +102,11 @@
 					"parameters": {
 						"layout": "LV1"
 					}
+				},
+				{
+					"id": "move-to-bottom",
+					"objectClass": "Mainplayer",
+					"sid": 439735174698643
 				}
 			],
 			"sid": 134981685325262
