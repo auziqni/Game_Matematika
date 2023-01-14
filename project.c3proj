@@ -137,7 +137,31 @@
 			"CtrlR",
 			"CtrlU",
 			"Audio",
-			"Text"
+			"Text",
+			"Materi_Persegi_Langkah",
+			"Materi_Persegi_Langkah2",
+			"Materi_Persegi_Langkah3",
+			"Materi_Persegi_Langkah4",
+			"Materi_PersegiPanjang_Langkah",
+			"Materi_PersegiPanjang_Langkah2",
+			"Materi_PersegiPanjang_Langkah3",
+			"Materi_PersegiPanjang_Langkah4",
+			"Materi_BelahKetupat_Langkah",
+			"Materi_BelahKetupat_Langkah2",
+			"Materi_BelahKetupat_Langkah3",
+			"Materi_BelahKetupat_Langkah4",
+			"Materi_JjarGenjang_Langkah",
+			"Materi_JjarGenjang_Langkah2",
+			"Materi_JjarGenjang_Langkah3",
+			"Materi_JjarGenjang_Langkah4",
+			"Materi_Layanglayang_Langkah",
+			"Materi_Layanglayang_Langkah2",
+			"Materi_Layanglayang_Langkah3",
+			"Materi_Layanglayang_Langkah4",
+			"Materi_Trapesium_Langkah",
+			"Materi_Trapesium_Langkah2",
+			"Materi_Trapesium_Langkah3",
+			"Materi_Trapesium_Langkah4"
 		],
 		"subfolders": [
 			{
@@ -558,15 +582,58 @@
 			},
 			{
 				"items": [
-					"allmateri",
-					"M_persegi",
-					"M_persegipanjang",
-					"M_belahketupat",
-					"M_jajargenjang",
-					"M_layanglayang",
-					"M_trapesium"
+					"allmateri"
 				],
-				"subfolders": [],
+				"subfolders": [
+					{
+						"items": [
+							"M_persegi",
+							"LangkahPersegi",
+							"LangkahPersegipanjang",
+							"Langkahbelahketupat",
+							"Langkahjajargenjang",
+							"Langkalayanglayang",
+							"Langkahtrapesium"
+						],
+						"subfolders": [],
+						"name": "persegi"
+					},
+					{
+						"items": [
+							"M_persegipanjang"
+						],
+						"subfolders": [],
+						"name": "persegi panjang"
+					},
+					{
+						"items": [
+							"M_belahketupat"
+						],
+						"subfolders": [],
+						"name": "belah ketupat"
+					},
+					{
+						"items": [
+							"M_jajargenjang"
+						],
+						"subfolders": [],
+						"name": "jajar genjang"
+					},
+					{
+						"items": [
+							"M_layanglayang"
+						],
+						"subfolders": [],
+						"name": "layang layang"
+					},
+					{
+						"items": [
+							"M_trapesium"
+						],
+						"subfolders": [],
+						"name": "trapesium"
+					}
+				],
 				"name": "materi"
 			}
 		]
@@ -574,7 +641,6 @@
 	"eventSheets": {
 		"items": [
 			"MainMenu",
-			"materi",
 			"atcp_petunjuk_tentang"
 		],
 		"subfolders": [
@@ -589,6 +655,19 @@
 				],
 				"subfolders": [],
 				"name": "game"
+			},
+			{
+				"items": [
+					"materi",
+					"langkahpersegi",
+					"langkahpersegipanjang",
+					"langkahbelahketupat",
+					"langkahtrapesium",
+					"langkahlayang",
+					"langkahjajargenjang"
+				],
+				"subfolders": [],
+				"name": "materi"
 			}
 		]
 	},
