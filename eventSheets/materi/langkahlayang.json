@@ -7,19 +7,19 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 559361129670096,
+					"sid": 653192981339624,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Materi_Persegi_Langkah"
+						"object-clicked": "Materi_Layanglayang_Langkah"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "tween-two-properties",
-					"objectClass": "Materi_Persegi_Langkah2",
-					"sid": 167448555075003,
+					"objectClass": "Materi_Layanglayang_Langkah2",
+					"sid": 643263034248328,
 					"behaviorType": "Tween",
 					"parameters": {
 						"tags": "\"\"",
@@ -42,19 +42,19 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 339385634919527,
+					"sid": 626497323705405,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Materi_Persegi_Langkah2"
+						"object-clicked": "Materi_Layanglayang_Langkah2"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "tween-two-properties",
-					"objectClass": "Materi_Persegi_Langkah3",
-					"sid": 382439114615888,
+					"objectClass": "Materi_Layanglayang_Langkah3",
+					"sid": 412237113607598,
 					"behaviorType": "Tween",
 					"parameters": {
 						"tags": "\"\"",
@@ -77,19 +77,19 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 261727192295240,
+					"sid": 384626790254007,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Materi_Persegi_Langkah3"
+						"object-clicked": "Materi_Layanglayang_Langkah3"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "tween-two-properties",
-					"objectClass": "Materi_Persegi_Langkah4",
-					"sid": 974141339539745,
+					"objectClass": "Materi_Layanglayang_Langkah4",
+					"sid": 470873046041387,
 					"behaviorType": "Tween",
 					"parameters": {
 						"tags": "\"\"",
@@ -112,11 +112,11 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 974581703404642,
+					"sid": 873984313640107,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Materi_Persegi_Langkah4"
+						"object-clicked": "Materi_Layanglayang_Langkah4"
 					}
 				}
 			],
@@ -124,13 +124,136 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 555256418670159,
+					"sid": 302777103087946,
 					"parameters": {
-						"layout": "M_persegi"
+						"layout": "M_layanglayang"
 					}
 				}
 			],
 			"sid": 929752122970579
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 466571846005332,
+					"parameters": {
+						"object": "Materi_Layanglayang_Langkah"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-two-properties",
+					"objectClass": "Materi_Layanglayang_Langkah2",
+					"sid": 783284393078445,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "position",
+						"end-x": "LayoutWidth/2",
+						"end-y": "LayoutHeight/2",
+						"time": "1",
+						"ease": "easeinback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 801336442984027
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 808534613104711,
+					"parameters": {
+						"object": "Materi_Layanglayang_Langkah2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-two-properties",
+					"objectClass": "Materi_Layanglayang_Langkah3",
+					"sid": 440226024043748,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "position",
+						"end-x": "LayoutWidth/2",
+						"end-y": "LayoutHeight/2",
+						"time": "0.8",
+						"ease": "easeinback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 452444010454437
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 517944777340022,
+					"parameters": {
+						"object": "Materi_Layanglayang_Langkah3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-two-properties",
+					"objectClass": "Materi_Layanglayang_Langkah4",
+					"sid": 900707617392754,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "position",
+						"end-x": "LayoutWidth/2",
+						"end-y": "LayoutHeight/2",
+						"time": "0.8",
+						"ease": "easeinback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 494944417539838
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 143773802303797,
+					"parameters": {
+						"object": "Materi_Layanglayang_Langkah4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 202666857760361,
+					"parameters": {
+						"layout": "M_layanglayang"
+					}
+				}
+			],
+			"sid": 923496143223939
 		}
 	],
 	"sid": 762280803498892

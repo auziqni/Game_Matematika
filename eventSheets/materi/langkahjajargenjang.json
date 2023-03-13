@@ -7,19 +7,19 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 196191837671184,
+					"sid": 250588687959144,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Materi_Persegi_Langkah"
+						"object-clicked": "Materi_JjarGenjang_Langkah"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "tween-two-properties",
-					"objectClass": "Materi_Persegi_Langkah2",
-					"sid": 352670245538946,
+					"objectClass": "Materi_JjarGenjang_Langkah2",
+					"sid": 479173683792085,
 					"behaviorType": "Tween",
 					"parameters": {
 						"tags": "\"\"",
@@ -42,19 +42,19 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 740600429002371,
+					"sid": 261060862666959,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Materi_Persegi_Langkah2"
+						"object-clicked": "Materi_JjarGenjang_Langkah2"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "tween-two-properties",
-					"objectClass": "Materi_Persegi_Langkah3",
-					"sid": 899960387873527,
+					"objectClass": "Materi_JjarGenjang_Langkah3",
+					"sid": 459844067825039,
 					"behaviorType": "Tween",
 					"parameters": {
 						"tags": "\"\"",
@@ -77,19 +77,19 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 623976390699786,
+					"sid": 357360044460170,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Materi_Persegi_Langkah3"
+						"object-clicked": "Materi_JjarGenjang_Langkah3"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "tween-two-properties",
-					"objectClass": "Materi_Persegi_Langkah4",
-					"sid": 244954821385051,
+					"objectClass": "Materi_JjarGenjang_Langkah4",
+					"sid": 516927638565450,
 					"behaviorType": "Tween",
 					"parameters": {
 						"tags": "\"\"",
@@ -112,11 +112,11 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 316440552495245,
+					"sid": 827003757474595,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Materi_Persegi_Langkah4"
+						"object-clicked": "Materi_JjarGenjang_Langkah4"
 					}
 				}
 			],
@@ -124,13 +124,136 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 731660625841663,
+					"sid": 621654277923355,
 					"parameters": {
-						"layout": "M_persegi"
+						"layout": "M_jajargenjang"
 					}
 				}
 			],
 			"sid": 510201842447166
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 346285757969926,
+					"parameters": {
+						"object": "Materi_JjarGenjang_Langkah"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-two-properties",
+					"objectClass": "Materi_JjarGenjang_Langkah2",
+					"sid": 244920259577040,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "position",
+						"end-x": "LayoutWidth/2",
+						"end-y": "LayoutHeight/2",
+						"time": "1",
+						"ease": "easeinback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 557866774413907
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 754345717065729,
+					"parameters": {
+						"object": "Materi_JjarGenjang_Langkah2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-two-properties",
+					"objectClass": "Materi_JjarGenjang_Langkah3",
+					"sid": 205350645833983,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "position",
+						"end-x": "LayoutWidth/2",
+						"end-y": "LayoutHeight/2",
+						"time": "0.8",
+						"ease": "easeinback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 840424623625040
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 326293492075201,
+					"parameters": {
+						"object": "Materi_JjarGenjang_Langkah3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-two-properties",
+					"objectClass": "Materi_JjarGenjang_Langkah4",
+					"sid": 533924982315655,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "position",
+						"end-x": "LayoutWidth/2",
+						"end-y": "LayoutHeight/2",
+						"time": "0.8",
+						"ease": "easeinback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 544577924989150
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 684135631850817,
+					"parameters": {
+						"object": "Materi_JjarGenjang_Langkah4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 272418449854037,
+					"parameters": {
+						"layout": "M_jajargenjang"
+					}
+				}
+			],
+			"sid": 199334259551387
 		}
 	],
 	"sid": 251334120756483

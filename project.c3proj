@@ -161,7 +161,13 @@
 			"Materi_Trapesium_Langkah",
 			"Materi_Trapesium_Langkah2",
 			"Materi_Trapesium_Langkah3",
-			"Materi_Trapesium_Langkah4"
+			"Materi_Trapesium_Langkah4",
+			"contoh_persegipanjang",
+			"contoh_persegi",
+			"contoh_belahketupat",
+			"contoh_jajargenjang",
+			"contoh_layang",
+			"contoh_tapesium"
 		],
 		"subfolders": [
 			{
@@ -588,39 +594,38 @@
 					{
 						"items": [
 							"M_persegi",
-							"LangkahPersegi",
-							"LangkahPersegipanjang",
-							"Langkahbelahketupat",
-							"Langkahjajargenjang",
-							"Langkalayanglayang",
-							"Langkahtrapesium"
+							"LangkahPersegi"
 						],
 						"subfolders": [],
 						"name": "persegi"
 					},
 					{
 						"items": [
-							"M_persegipanjang"
+							"M_persegipanjang",
+							"LangkahPersegipanjang"
 						],
 						"subfolders": [],
 						"name": "persegi panjang"
 					},
 					{
 						"items": [
-							"M_belahketupat"
+							"M_belahketupat",
+							"Langkahbelahketupat"
 						],
 						"subfolders": [],
 						"name": "belah ketupat"
 					},
 					{
 						"items": [
-							"M_jajargenjang"
+							"M_jajargenjang",
+							"Langkahjajargenjang"
 						],
 						"subfolders": [],
 						"name": "jajar genjang"
 					},
 					{
 						"items": [
+							"Langkalayanglayang",
 							"M_layanglayang"
 						],
 						"subfolders": [],
@@ -628,7 +633,8 @@
 					},
 					{
 						"items": [
-							"M_trapesium"
+							"M_trapesium",
+							"Langkahtrapesium"
 						],
 						"subfolders": [],
 						"name": "trapesium"

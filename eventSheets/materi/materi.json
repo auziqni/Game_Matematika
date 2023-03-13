@@ -7,7 +7,7 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 109951239797959,
+					"sid": 862911682857891,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
@@ -57,7 +57,7 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 287800531339722,
+					"sid": 567389830542716,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
@@ -400,6 +400,306 @@
 				}
 			],
 			"sid": 900255606604201
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 832133910005394,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "contoh_persegi"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 369102683077668,
+					"parameters": {
+						"layout": "LangkahPersegi"
+					}
+				}
+			],
+			"sid": 488455356950162
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 126806407179040,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "contoh_persegipanjang"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 536416132290821,
+					"parameters": {
+						"layout": "LangkahPersegipanjang"
+					}
+				}
+			],
+			"sid": 675576495989617
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 160712925056692,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "contoh_belahketupat"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 174598990592841,
+					"parameters": {
+						"layout": "Langkahbelahketupat"
+					}
+				}
+			],
+			"sid": 665988721891002
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 456367626715229,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "contoh_jajargenjang"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 177564349648816,
+					"parameters": {
+						"layout": "Langkahjajargenjang"
+					}
+				}
+			],
+			"sid": 835395382192051
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 125314198137238,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "contoh_layang"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 450190707173905,
+					"parameters": {
+						"layout": "Langkalayanglayang"
+					}
+				}
+			],
+			"sid": 364857568491975
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 305065981948910,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "contoh_tapesium"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 794469501125162,
+					"parameters": {
+						"layout": "Langkahtrapesium"
+					}
+				}
+			],
+			"sid": 665639899298107
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 803112456533931,
+					"parameters": {
+						"object": "contoh_persegi"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 722775674134476,
+					"parameters": {
+						"layout": "LangkahPersegi"
+					}
+				}
+			],
+			"sid": 828040568858907
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 486419557662308,
+					"parameters": {
+						"object": "contoh_persegipanjang"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 784043668305701,
+					"parameters": {
+						"layout": "LangkahPersegipanjang"
+					}
+				}
+			],
+			"sid": 388394231580439
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 564876921662638,
+					"parameters": {
+						"object": "contoh_belahketupat"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 752708744538893,
+					"parameters": {
+						"layout": "Langkahbelahketupat"
+					}
+				}
+			],
+			"sid": 485056557600235
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 794427314891837,
+					"parameters": {
+						"object": "contoh_jajargenjang"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 393738836530985,
+					"parameters": {
+						"layout": "Langkahjajargenjang"
+					}
+				}
+			],
+			"sid": 889989776053866
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 299151101114472,
+					"parameters": {
+						"object": "contoh_layang"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 677683574410274,
+					"parameters": {
+						"layout": "Langkalayanglayang"
+					}
+				}
+			],
+			"sid": 861790357468887
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 564058905812469,
+					"parameters": {
+						"object": "contoh_tapesium"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 237058335856141,
+					"parameters": {
+						"layout": "Langkahtrapesium"
+					}
+				}
+			],
+			"sid": 509650877822220
 		}
 	],
 	"sid": 836555949136225

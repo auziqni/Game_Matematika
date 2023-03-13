@@ -7,19 +7,19 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 436321254897809,
+					"sid": 816135319917434,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Materi_Persegi_Langkah"
+						"object-clicked": "Materi_Trapesium_Langkah"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "tween-two-properties",
-					"objectClass": "Materi_Persegi_Langkah2",
-					"sid": 312677793296264,
+					"objectClass": "Materi_Trapesium_Langkah2",
+					"sid": 569603098684888,
 					"behaviorType": "Tween",
 					"parameters": {
 						"tags": "\"\"",
@@ -42,19 +42,19 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 480224589950551,
+					"sid": 365113898104081,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Materi_Persegi_Langkah2"
+						"object-clicked": "Materi_Trapesium_Langkah2"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "tween-two-properties",
-					"objectClass": "Materi_Persegi_Langkah3",
-					"sid": 188465967485722,
+					"objectClass": "Materi_Trapesium_Langkah3",
+					"sid": 930351049935166,
 					"behaviorType": "Tween",
 					"parameters": {
 						"tags": "\"\"",
@@ -77,19 +77,19 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 979668734754882,
+					"sid": 511417175705926,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Materi_Persegi_Langkah3"
+						"object-clicked": "Materi_Trapesium_Langkah3"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "tween-two-properties",
-					"objectClass": "Materi_Persegi_Langkah4",
-					"sid": 266513770866700,
+					"objectClass": "Materi_Trapesium_Langkah4",
+					"sid": 226891758357346,
 					"behaviorType": "Tween",
 					"parameters": {
 						"tags": "\"\"",
@@ -112,11 +112,11 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 890633270855564,
+					"sid": 153974160155856,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Materi_Persegi_Langkah4"
+						"object-clicked": "Materi_Trapesium_Langkah4"
 					}
 				}
 			],
@@ -124,13 +124,136 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 549219992107461,
+					"sid": 291922841882939,
 					"parameters": {
-						"layout": "M_persegi"
+						"layout": "M_trapesium"
 					}
 				}
 			],
 			"sid": 547184661006025
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 719474458290902,
+					"parameters": {
+						"object": "Materi_Trapesium_Langkah"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-two-properties",
+					"objectClass": "Materi_Trapesium_Langkah2",
+					"sid": 237952977031963,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "position",
+						"end-x": "LayoutWidth/2",
+						"end-y": "LayoutHeight/2",
+						"time": "1",
+						"ease": "easeinback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 825739696707838
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 247945617831484,
+					"parameters": {
+						"object": "Materi_Trapesium_Langkah2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-two-properties",
+					"objectClass": "Materi_Trapesium_Langkah3",
+					"sid": 371239998827120,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "position",
+						"end-x": "LayoutWidth/2",
+						"end-y": "LayoutHeight/2",
+						"time": "0.8",
+						"ease": "easeinback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 581979941871560
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 964217199890484,
+					"parameters": {
+						"object": "Materi_Trapesium_Langkah3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-two-properties",
+					"objectClass": "Materi_Trapesium_Langkah4",
+					"sid": 936770861346395,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "position",
+						"end-x": "LayoutWidth/2",
+						"end-y": "LayoutHeight/2",
+						"time": "0.8",
+						"ease": "easeinback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 613608419302418
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 900389344612377,
+					"parameters": {
+						"object": "Materi_Trapesium_Langkah4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 940800845604319,
+					"parameters": {
+						"layout": "M_trapesium"
+					}
+				}
+			],
+			"sid": 464670625177720
 		}
 	],
 	"sid": 980189477837312

@@ -7,19 +7,19 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 947940385096017,
+					"sid": 126748183778771,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Materi_Persegi_Langkah"
+						"object-clicked": "Materi_BelahKetupat_Langkah"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "tween-two-properties",
-					"objectClass": "Materi_Persegi_Langkah2",
-					"sid": 210385001926940,
+					"objectClass": "Materi_BelahKetupat_Langkah2",
+					"sid": 703714437971597,
 					"behaviorType": "Tween",
 					"parameters": {
 						"tags": "\"\"",
@@ -42,19 +42,19 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 466190409937329,
+					"sid": 683007429599582,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Materi_Persegi_Langkah2"
+						"object-clicked": "Materi_BelahKetupat_Langkah2"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "tween-two-properties",
-					"objectClass": "Materi_Persegi_Langkah3",
-					"sid": 804411127982003,
+					"objectClass": "Materi_BelahKetupat_Langkah3",
+					"sid": 806524583955915,
 					"behaviorType": "Tween",
 					"parameters": {
 						"tags": "\"\"",
@@ -77,19 +77,19 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 692671839195798,
+					"sid": 102033865033674,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Materi_Persegi_Langkah3"
+						"object-clicked": "Materi_BelahKetupat_Langkah3"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "tween-two-properties",
-					"objectClass": "Materi_Persegi_Langkah4",
-					"sid": 950438221608798,
+					"objectClass": "Materi_BelahKetupat_Langkah4",
+					"sid": 860755525029733,
 					"behaviorType": "Tween",
 					"parameters": {
 						"tags": "\"\"",
@@ -112,11 +112,11 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 625635595277959,
+					"sid": 687855565565338,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Materi_Persegi_Langkah4"
+						"object-clicked": "Materi_BelahKetupat_Langkah4"
 					}
 				}
 			],
@@ -124,13 +124,136 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 908163756266578,
+					"sid": 532920878437951,
 					"parameters": {
-						"layout": "M_persegi"
+						"layout": "M_belahketupat"
 					}
 				}
 			],
 			"sid": 688331503654430
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 607079923014300,
+					"parameters": {
+						"object": "Materi_BelahKetupat_Langkah"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-two-properties",
+					"objectClass": "Materi_BelahKetupat_Langkah2",
+					"sid": 839412316647939,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "position",
+						"end-x": "LayoutWidth/2",
+						"end-y": "LayoutHeight/2",
+						"time": "1",
+						"ease": "easeinback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 265947791176660
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 371515598820885,
+					"parameters": {
+						"object": "Materi_BelahKetupat_Langkah2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-two-properties",
+					"objectClass": "Materi_BelahKetupat_Langkah3",
+					"sid": 288062388094609,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "position",
+						"end-x": "LayoutWidth/2",
+						"end-y": "LayoutHeight/2",
+						"time": "0.8",
+						"ease": "easeinback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 587091700963681
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 572702183367968,
+					"parameters": {
+						"object": "Materi_BelahKetupat_Langkah3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-two-properties",
+					"objectClass": "Materi_BelahKetupat_Langkah4",
+					"sid": 352506818979408,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "position",
+						"end-x": "LayoutWidth/2",
+						"end-y": "LayoutHeight/2",
+						"time": "0.8",
+						"ease": "easeinback",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no"
+					}
+				}
+			],
+			"sid": 168949514448084
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 673634423340204,
+					"parameters": {
+						"object": "Materi_BelahKetupat_Langkah4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 887416123830996,
+					"parameters": {
+						"layout": "M_belahketupat"
+					}
+				}
+			],
+			"sid": 588365223641761
 		}
 	],
 	"sid": 770920985614422
