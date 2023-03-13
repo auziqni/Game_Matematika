@@ -1,0 +1,421 @@
+{
+	"name": "latihan2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 175700461353046,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "latihan_tolatihan"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 209690131888260,
+					"parameters": {
+						"layout": "latihan"
+					}
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 685534854476702
+				}
+			],
+			"sid": 838756141529909
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 516264396876144,
+					"parameters": {
+						"object": "latihan_tolatihan"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 250262263581731,
+					"parameters": {
+						"layout": "latihan"
+					}
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 378945899019912
+				}
+			],
+			"sid": 221751356726070
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 491438562644183
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 633860593166887
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 303358924805709,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 542895601049671,
+					"parameters": {
+						"audio-file": "latihan2",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"soal1\""
+					}
+				}
+			],
+			"sid": 625138518120375
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-ended",
+					"objectClass": "Audio",
+					"sid": 263580062997443,
+					"parameters": {
+						"tag": "\"soal1\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 808148311238177,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "latihanLangkah1",
+					"sid": 540132457681400,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 787820701771653,
+					"parameters": {
+						"audio-file": "cara1",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"cara1\""
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "latihanSemangat",
+					"sid": 142393460516813,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 333849734597146
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-ended",
+					"objectClass": "Audio",
+					"sid": 693279511026886,
+					"parameters": {
+						"tag": "\"cara1\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-one-property",
+					"objectClass": "latihanSemangat",
+					"sid": 365303921206255,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetX",
+						"end-value": "1300",
+						"time": "12",
+						"ease": "noease",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no",
+						"repeat-count": "1"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 533346150532241,
+					"parameters": {
+						"seconds": "12"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "latihanLangkah1",
+					"sid": 565437782284546,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 262918496571084,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "latihanLangkah2",
+					"sid": 687886093165644,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 568660296492582,
+					"parameters": {
+						"audio-file": "cara2",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"cara2\""
+					}
+				}
+			],
+			"sid": 335544122901501
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-ended",
+					"objectClass": "Audio",
+					"sid": 119585107913614,
+					"parameters": {
+						"tag": "\"cara2\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-one-property",
+					"objectClass": "latihanSemangat",
+					"sid": 647884315920082,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetX",
+						"end-value": "70",
+						"time": "12",
+						"ease": "noease",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no",
+						"repeat-count": "1"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 661761456825911,
+					"parameters": {
+						"seconds": "12"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "latihanLangkah2",
+					"sid": 119406268241349,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 682502323135115,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "latihanLangkah3",
+					"sid": 397985810588776,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 659211717667653,
+					"parameters": {
+						"audio-file": "cara3",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"cara3\""
+					}
+				}
+			],
+			"sid": 728729395756750
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-ended",
+					"objectClass": "Audio",
+					"sid": 446022443084858,
+					"parameters": {
+						"tag": "\"cara3\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-one-property",
+					"objectClass": "latihanSemangat",
+					"sid": 346385188218077,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetX",
+						"end-value": "1300",
+						"time": "12",
+						"ease": "noease",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no",
+						"repeat-count": "1"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 439979832046197,
+					"parameters": {
+						"seconds": "12"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "latihanLangkah3",
+					"sid": 807008109285267,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 638159916855043,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "latihanLangkah4",
+					"sid": 841655858865765,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 401743347638441,
+					"parameters": {
+						"audio-file": "cara4",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"cara4\""
+					}
+				}
+			],
+			"sid": 414681885364096
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-ended",
+					"objectClass": "Audio",
+					"sid": 770853907249893,
+					"parameters": {
+						"tag": "\"cara4\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "tween-one-property",
+					"objectClass": "latihanSemangat",
+					"sid": 512064424684458,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"\"",
+						"property": "offsetX",
+						"end-value": "70",
+						"time": "12",
+						"ease": "noease",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no",
+						"repeat-count": "1"
+					}
+				}
+			],
+			"sid": 695979010214557
+		}
+	],
+	"sid": 268053942171973
+}

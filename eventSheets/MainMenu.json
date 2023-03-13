@@ -29,7 +29,8 @@
 						"ease": "easeinback",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -70,7 +71,8 @@
 						"ease": "easeinback",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -113,7 +115,8 @@
 						"ease": "easeinback",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -162,7 +165,8 @@
 						"ease": "easeinback",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -213,7 +217,8 @@
 						"ease": "easeinback",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -258,7 +263,8 @@
 						"ease": "easeinback",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -383,6 +389,56 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
+					"sid": 381683886336682,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "menulatihan"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 101604743390222,
+					"parameters": {
+						"layout": "latihan"
+					}
+				}
+			],
+			"sid": 390051124023517
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 238214341946562,
+					"parameters": {
+						"object": "menulatihan"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 324714415695848,
+					"parameters": {
+						"layout": "latihan"
+					}
+				}
+			],
+			"sid": 972482895588627
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
 					"sid": 636259632788048,
 					"parameters": {
 						"mouse-button": "left",
@@ -395,7 +451,7 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 403188861469640,
+					"sid": 819198271458306,
 					"parameters": {
 						"layout": "PilihLv"
 					}

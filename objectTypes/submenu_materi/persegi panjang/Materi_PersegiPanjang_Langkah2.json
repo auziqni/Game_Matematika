@@ -1,14 +1,14 @@
 {
-	"name": "Materi_Persegi_Langkah2",
+	"name": "Materi_PersegiPanjang_Langkah2",
 	"plugin-id": "Sprite",
-	"sid": 508194426408522,
+	"sid": 924657288580307,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Tween",
 			"name": "Tween",
-			"sid": 395460416532299
+			"sid": 554392935326614
 		}
 	],
 	"effectTypes": [],
@@ -18,18 +18,38 @@
 				"frames": [
 					{
 						"width": 1600,
-						"height": 901,
+						"height": 900,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 799792,
+						"imageSpriteId": 581504,
+						"collisionPoly": {
+							"points": [
+								0.01375,
+								0.024444444444444446,
+								0.5,
+								0,
+								0.98625,
+								0.024444444444444446,
+								1,
+								0.5,
+								0.98625,
+								0.9755555555555555,
+								0.5,
+								1,
+								0.01375,
+								0.9755555555555555,
+								0,
+								0.5
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 235744433340817,
+				"sid": 642365749018947,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

@@ -1,0 +1,15 @@
+{
+	"name": "latihanSemangat",
+	"plugin-id": "Text",
+	"sid": 131657020768981,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Tween",
+			"name": "Tween",
+			"sid": 477960362801684
+		}
+	],
+	"effectTypes": []
+}

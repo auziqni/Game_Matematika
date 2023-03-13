@@ -1,0 +1,156 @@
+{
+	"name": "latihan",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 448145319204081,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "backtomainmenu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 214216994560125,
+					"parameters": {
+						"layout": "MainMenu"
+					}
+				}
+			],
+			"sid": 260414276596944
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 207987422663448,
+					"parameters": {
+						"object": "backtomainmenu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 402792991283750,
+					"parameters": {
+						"layout": "MainMenu"
+					}
+				}
+			],
+			"sid": 633942787889797
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 509321182976593,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "bt_latihan1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 109704915434615,
+					"parameters": {
+						"layout": "latihan1"
+					}
+				}
+			],
+			"sid": 303344850289426
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 638380972308636,
+					"parameters": {
+						"object": "bt_latihan1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 297571929317496,
+					"parameters": {
+						"layout": "latihan1"
+					}
+				}
+			],
+			"sid": 301174786332954
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 400185748904931,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "bt_latihan2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 337605120517139,
+					"parameters": {
+						"layout": "latihan2"
+					}
+				}
+			],
+			"sid": 407042568472079
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 207001376484035,
+					"parameters": {
+						"object": "bt_latihan2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 842271975212172,
+					"parameters": {
+						"layout": "latihan2"
+					}
+				}
+			],
+			"sid": 814450717746097
+		}
+	],
+	"sid": 485261989372880
+}

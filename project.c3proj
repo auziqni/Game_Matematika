@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 31702,
+	"savedWithRelease": 32703,
 	"name": "Poly Game",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -8,50 +8,9 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "Text",
-			"name": "Text",
+			"id": "Audio",
+			"name": "Audio",
 			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Sprite",
-			"name": "Sprite",
-			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "TiledBg",
-			"name": "Tiled Background",
-			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Keyboard",
-			"name": "Keyboard",
-			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Mouse",
-			"name": "Mouse",
-			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Touch",
-			"name": "Touch",
-			"author": "Scirra",
-			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -59,23 +18,48 @@
 			"id": "Browser",
 			"name": "Browser",
 			"author": "Scirra",
-			"version": "r317.2",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
-			"id": "Audio",
-			"name": "Audio",
+			"id": "Keyboard",
+			"name": "Keyboard",
 			"author": "Scirra",
-			"version": "r317.2",
 			"bundled": false
 		},
 		{
-			"type": "behavior",
-			"id": "Tween",
-			"name": "Tween",
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
 			"author": "Scirra",
-			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Touch",
+			"name": "Touch",
+			"author": "Scirra",
 			"bundled": false
 		},
 		{
@@ -83,23 +67,6 @@
 			"id": "Anchor",
 			"name": "Anchor",
 			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Platform",
-			"name": "Platform",
-			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "scrollto",
-			"name": "Scroll To",
-			"author": "Scirra",
-			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -107,7 +74,27 @@
 			"id": "Flash",
 			"name": "Flash",
 			"author": "Scirra",
-			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Tween",
+			"name": "Tween",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
 			"bundled": false
 		},
 		{
@@ -115,7 +102,6 @@
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
-			"version": "r317.2",
 			"bundled": false
 		}
 	],
@@ -138,36 +124,21 @@
 			"CtrlU",
 			"Audio",
 			"Text",
-			"Materi_Persegi_Langkah",
-			"Materi_Persegi_Langkah2",
-			"Materi_Persegi_Langkah3",
-			"Materi_Persegi_Langkah4",
-			"Materi_PersegiPanjang_Langkah",
-			"Materi_PersegiPanjang_Langkah2",
-			"Materi_PersegiPanjang_Langkah3",
-			"Materi_PersegiPanjang_Langkah4",
-			"Materi_BelahKetupat_Langkah",
-			"Materi_BelahKetupat_Langkah2",
-			"Materi_BelahKetupat_Langkah3",
-			"Materi_BelahKetupat_Langkah4",
-			"Materi_JjarGenjang_Langkah",
-			"Materi_JjarGenjang_Langkah2",
-			"Materi_JjarGenjang_Langkah3",
-			"Materi_JjarGenjang_Langkah4",
-			"Materi_Layanglayang_Langkah",
-			"Materi_Layanglayang_Langkah2",
-			"Materi_Layanglayang_Langkah3",
-			"Materi_Layanglayang_Langkah4",
-			"Materi_Trapesium_Langkah",
-			"Materi_Trapesium_Langkah2",
-			"Materi_Trapesium_Langkah3",
-			"Materi_Trapesium_Langkah4",
 			"contoh_persegipanjang",
 			"contoh_persegi",
 			"contoh_belahketupat",
 			"contoh_jajargenjang",
 			"contoh_layang",
-			"contoh_tapesium"
+			"contoh_tapesium",
+			"latihan2",
+			"latihan1",
+			"backandmenu",
+			"latihan_tolatihan",
+			"latihanLangkah1",
+			"latihanLangkah2",
+			"latihanLangkah3",
+			"latihanLangkah4",
+			"latihanSemangat"
 		],
 		"subfolders": [
 			{
@@ -181,7 +152,10 @@
 					"confirmout",
 					"exit",
 					"exitno",
-					"exitya"
+					"exitya",
+					"menulatihan",
+					"bt_latihan1",
+					"bt_latihan2"
 				],
 				"subfolders": [],
 				"name": "MainMenu"
@@ -200,12 +174,16 @@
 					"MainPlayer_gold",
 					"MainPlayer_Heart",
 					"onGameOver",
-					"finishPopup",
+					"finishPopuplv1",
 					"popupJawabanBenar",
 					"popupJawabanSalah",
 					"finish",
 					"pauseimg",
-					"finishClickAny"
+					"finishClickAny",
+					"finishPopuplv2",
+					"finishPopuplv3",
+					"finishPopuplv4",
+					"finishPopuplv5"
 				],
 				"subfolders": [
 					{
@@ -482,7 +460,11 @@
 					{
 						"items": [
 							"materi_persegi",
-							"materiPersegi"
+							"materiPersegi",
+							"Materi_Persegi_Langkah",
+							"Materi_Persegi_Langkah2",
+							"Materi_Persegi_Langkah3",
+							"Materi_Persegi_Langkah4"
 						],
 						"subfolders": [],
 						"name": "persegi"
@@ -490,7 +472,11 @@
 					{
 						"items": [
 							"materi_persegipanjang",
-							"materiPersegiPanjang"
+							"materiPersegiPanjang",
+							"Materi_PersegiPanjang_Langkah",
+							"Materi_PersegiPanjang_Langkah2",
+							"Materi_PersegiPanjang_Langkah3",
+							"Materi_PersegiPanjang_Langkah4"
 						],
 						"subfolders": [],
 						"name": "persegi panjang"
@@ -498,7 +484,11 @@
 					{
 						"items": [
 							"materi_belahketupat",
-							"materiBelahKetupat"
+							"materiBelahKetupat",
+							"Materi_BelahKetupat_Langkah",
+							"Materi_BelahKetupat_Langkah2",
+							"Materi_BelahKetupat_Langkah3",
+							"Materi_BelahKetupat_Langkah4"
 						],
 						"subfolders": [],
 						"name": "belah ketupat"
@@ -506,7 +496,11 @@
 					{
 						"items": [
 							"materi_jajargenjang",
-							"materiJajarGenjang"
+							"materiJajarGenjang",
+							"Materi_JjarGenjang_Langkah",
+							"Materi_JjarGenjang_Langkah2",
+							"Materi_JjarGenjang_Langkah3",
+							"Materi_JjarGenjang_Langkah4"
 						],
 						"subfolders": [],
 						"name": "jajar genjang"
@@ -514,7 +508,11 @@
 					{
 						"items": [
 							"materi_layanglayang",
-							"materiLayangLayang"
+							"materiLayangLayang",
+							"Materi_Layanglayang_Langkah",
+							"Materi_Layanglayang_Langkah2",
+							"Materi_Layanglayang_Langkah3",
+							"Materi_Layanglayang_Langkah4"
 						],
 						"subfolders": [],
 						"name": "layang layang"
@@ -522,7 +520,11 @@
 					{
 						"items": [
 							"materi_tarapesium",
-							"materiTrapesium"
+							"materiTrapesium",
+							"Materi_Trapesium_Langkah",
+							"Materi_Trapesium_Langkah2",
+							"Materi_Trapesium_Langkah3",
+							"Materi_Trapesium_Langkah4"
 						],
 						"subfolders": [],
 						"name": "trapesium"
@@ -549,10 +551,29 @@
 			{
 				"items": [
 					"subMenuTentang",
-					"tentang_mainmenu"
+					"tentang_mainmenu",
+					"latihan_mainmenu"
 				],
 				"subfolders": [],
 				"name": "submenu_tentang"
+			},
+			{
+				"items": [
+					"sub_game_latiihan"
+				],
+				"subfolders": [
+					{
+						"items": [],
+						"subfolders": [],
+						"name": "latihan1"
+					},
+					{
+						"items": [],
+						"subfolders": [],
+						"name": "latihan2"
+					}
+				],
+				"name": "submenu_latihan"
 			}
 		]
 	},
@@ -571,7 +592,10 @@
 			"MainMenu",
 			"petunjuk",
 			"Tentang",
-			"atcp"
+			"atcp",
+			"latihan",
+			"latihan1",
+			"latihan2"
 		],
 		"subfolders": [
 			{
@@ -588,7 +612,8 @@
 			},
 			{
 				"items": [
-					"allmateri"
+					"allmateri",
+					"Layout 1"
 				],
 				"subfolders": [
 					{
@@ -647,7 +672,10 @@
 	"eventSheets": {
 		"items": [
 			"MainMenu",
-			"atcp_petunjuk_tentang"
+			"atcp_petunjuk_tentang",
+			"latihan",
+			"latihan1",
+			"latihan2"
 		],
 		"subfolders": [
 			{
@@ -729,6 +757,54 @@
 					"name": "lompat.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 386838314106705,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "cara1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 704104403581443,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "cara2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 749251907904370,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "cara3.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 985056601234208,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "cara4.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 269119653959397,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "latihan1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 860658965120685,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "latihan2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 317095404745605,
 					"file-info": {
 						"purpose": "none"
 					}
@@ -868,6 +944,8 @@
 		"downscaling": "medium",
 		"renderingMode": "auto",
 		"anisotropicFiltering": "auto",
+		"zNear": 1,
+		"zFar": 10000,
 		"maxSpriteSheetSize": 2048,
 		"loaderStyle": "progress-logo",
 		"preloadSounds": true,

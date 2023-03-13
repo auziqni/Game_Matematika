@@ -1,16 +1,10 @@
 {
-	"name": "Materi_Layanglayang_Langkah2",
+	"name": "sub_game_latiihan",
 	"plugin-id": "Sprite",
-	"sid": 831462809549731,
+	"sid": 596494517817354,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Tween",
-			"name": "Tween",
-			"sid": 871582421407512
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -18,18 +12,18 @@
 				"frames": [
 					{
 						"width": 1600,
-						"height": 901,
+						"height": 900,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 116755,
+						"imageSpriteId": 3481776,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 866574111529782,
+				"sid": 844084627702833,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

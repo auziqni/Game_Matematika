@@ -1,14 +1,14 @@
 {
-	"name": "Materi_BelahKetupat_Langkah2",
+	"name": "Materi_Trapesium_Langkah2",
 	"plugin-id": "Sprite",
-	"sid": 583801570606906,
+	"sid": 104271478417025,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Tween",
 			"name": "Tween",
-			"sid": 198106486163132
+			"sid": 138711661327248
 		}
 	],
 	"effectTypes": [],
@@ -24,12 +24,32 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8724305,
+						"imageSpriteId": 6106752,
+						"collisionPoly": {
+							"points": [
+								0.01375,
+								0.0244173140954495,
+								0.5,
+								0.0011098779134295228,
+								0.98625,
+								0.0244173140954495,
+								1,
+								0.5,
+								0.98625,
+								0.9755826859045506,
+								0.5,
+								1,
+								0.01375,
+								0.9755826859045506,
+								0,
+								0.5
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 869919205859701,
+				"sid": 120696225715687,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

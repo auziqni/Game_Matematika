@@ -1,14 +1,14 @@
 {
-	"name": "finishPopup",
+	"name": "finishPopuplv2",
 	"plugin-id": "Sprite",
-	"sid": 583586408018983,
+	"sid": 318202643149008,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Tween",
 			"name": "Tween",
-			"sid": 306073549830730
+			"sid": 151694857070832
 		}
 	],
 	"effectTypes": [],
@@ -24,12 +24,32 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7482132,
+						"imageSpriteId": 7164,
+						"collisionPoly": {
+							"points": [
+								0.025974025974025976,
+								0.0784313725490196,
+								0.5,
+								0,
+								0.974025974025974,
+								0.0784313725490196,
+								0.9967532467532467,
+								0.5,
+								0.9718614718614719,
+								0.9150326797385621,
+								0.5,
+								0.9901960784313726,
+								0.02813852813852814,
+								0.9150326797385621,
+								0.003246753246753247,
+								0.5
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 125762291094270,
+				"sid": 555114166632633,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

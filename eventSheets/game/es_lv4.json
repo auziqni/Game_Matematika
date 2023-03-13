@@ -350,7 +350,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				}
 			],
@@ -382,7 +383,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				}
 			],
@@ -416,7 +418,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -457,7 +460,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -962,8 +966,8 @@
 			"actions": [
 				{
 					"id": "tween-one-property",
-					"objectClass": "finishPopup",
-					"sid": 343780879636595,
+					"objectClass": "finishPopuplv4",
+					"sid": 924926328571708,
 					"behaviorType": "Tween",
 					"parameters": {
 						"tags": "\"\"",
@@ -973,7 +977,8 @@
 						"ease": "easeinback",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1028,8 +1033,8 @@
 			"actions": [
 				{
 					"id": "tween-one-property",
-					"objectClass": "finishPopup",
-					"sid": 510153936140997,
+					"objectClass": "finishPopuplv4",
+					"sid": 851987634434381,
 					"behaviorType": "Tween",
 					"parameters": {
 						"tags": "\"\"",
@@ -1039,7 +1044,8 @@
 						"ease": "easeoutback",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1068,8 +1074,8 @@
 			"actions": [
 				{
 					"id": "tween-one-property",
-					"objectClass": "finishPopup",
-					"sid": 894521291870672,
+					"objectClass": "finishPopuplv4",
+					"sid": 646720699633391,
 					"behaviorType": "Tween",
 					"parameters": {
 						"tags": "\"\"",
@@ -1079,7 +1085,8 @@
 						"ease": "easeoutback",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1121,7 +1128,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1137,7 +1145,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1153,7 +1162,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1169,7 +1179,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1185,7 +1196,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1201,7 +1213,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1284,7 +1297,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1300,7 +1314,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1316,7 +1331,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1332,7 +1348,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1348,7 +1365,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1364,7 +1382,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1449,7 +1468,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1465,7 +1485,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1481,7 +1502,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1497,7 +1519,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1513,7 +1536,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1529,7 +1553,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1621,7 +1646,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1637,7 +1663,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1653,7 +1680,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1669,7 +1697,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1685,7 +1714,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1701,7 +1731,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1841,7 +1872,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -1933,7 +1965,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -2025,7 +2058,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -2117,7 +2151,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -2209,7 +2244,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{
@@ -2301,7 +2337,8 @@
 						"ease": "default",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				},
 				{

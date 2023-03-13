@@ -55,14 +55,15 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 34,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 522,
-						"y": 271,
+						"x": 545,
+						"y": 238,
 						"width": 514,
 						"height": 95,
 						"originX": 0,
@@ -97,14 +98,15 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 39,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 526,
-						"y": 387,
+						"x": 544,
+						"y": 340,
 						"width": 514,
 						"height": 95,
 						"originX": 0,
@@ -139,14 +141,15 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 40,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 529,
-						"y": 502,
+						"x": 536,
+						"y": 550,
 						"width": 514,
 						"height": 95,
 						"originX": 0,
@@ -181,14 +184,15 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 41,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 528,
-						"y": 612,
+						"x": 544,
+						"y": 650,
 						"width": 514,
 						"height": 95,
 						"originX": 0,
@@ -223,14 +227,15 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 42,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 523,
-						"y": 725,
+						"x": 544,
+						"y": 756,
 						"width": 514,
 						"height": 95,
 						"originX": 0,
@@ -265,7 +270,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 43,
 					"instanceVariables": {},
@@ -307,7 +313,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 45,
 					"instanceVariables": {},
@@ -374,7 +381,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 46,
 					"instanceVariables": {},
@@ -533,6 +541,49 @@
 						"height": 456,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "menulatihan",
+					"properties": {
+						"text": "",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 520,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 546,
+						"y": 447,
+						"width": 514,
+						"height": 95,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,

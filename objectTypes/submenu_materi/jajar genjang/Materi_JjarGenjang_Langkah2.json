@@ -1,14 +1,14 @@
 {
-	"name": "Materi_Trapesium_Langkah2",
+	"name": "Materi_JjarGenjang_Langkah2",
 	"plugin-id": "Sprite",
-	"sid": 104271478417025,
+	"sid": 331272973044406,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Tween",
 			"name": "Tween",
-			"sid": 138711661327248
+			"sid": 413051383800164
 		}
 	],
 	"effectTypes": [],
@@ -24,12 +24,32 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5014295,
+						"imageSpriteId": 5224682,
+						"collisionPoly": {
+							"points": [
+								0.01375,
+								0.0244173140954495,
+								0.5,
+								0,
+								0.98625,
+								0.0244173140954495,
+								1,
+								0.5,
+								0.98625,
+								0.9755826859045506,
+								0.5,
+								1,
+								0.01375,
+								0.9755826859045506,
+								0,
+								0.5
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 120696225715687,
+				"sid": 138492332683015,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

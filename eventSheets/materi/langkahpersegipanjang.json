@@ -30,7 +30,8 @@
 						"ease": "easeinback",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				}
 			],
@@ -65,7 +66,8 @@
 						"ease": "easeinback",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				}
 			],
@@ -100,7 +102,8 @@
 						"ease": "easeinback",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				}
 			],
@@ -159,7 +162,8 @@
 						"ease": "easeinback",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				}
 			],
@@ -192,7 +196,8 @@
 						"ease": "easeinback",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				}
 			],
@@ -225,7 +230,8 @@
 						"ease": "easeinback",
 						"destroy-on-complete": "no",
 						"loop": "no",
-						"ping-pong": "no"
+						"ping-pong": "no",
+						"repeat-count": "1"
 					}
 				}
 			],
